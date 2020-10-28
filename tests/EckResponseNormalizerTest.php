@@ -9,6 +9,9 @@ use PHPUnit\Framework\TestCase;
 
 class EckResponseNormalizerTest extends TestCase
 {
+    /**
+     * @covers \Kennisnet\ECK\RecordsNormalizer
+     */
     public function testRecordNormalizerFromSearchResponse()
     {
         $document   = file_get_contents(__DIR__.'/eckResponse.xml');
@@ -20,6 +23,5 @@ class EckResponseNormalizerTest extends TestCase
 
         $this->assertEquals(6, count($records));
         $this->assertInstanceOf(EckRecord::class, array_shift($records));
-
     }
 }
