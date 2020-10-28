@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/"
+>
+    <srw:version>1.2</srw:version>
+    <srw:numberOfRecords>6</srw:numberOfRecords>
+    <srw:records>
+        <srw:record>
+            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>deviant_test:5995920c-c6aa-5ddd-aa80-f2bbbdf545d6</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                    <ProductId>9789463260077</ProductId>
+                    <Publisher>Uitgeverij Deviant bv</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.uitgeverij-deviant.nl/wp-content/themes/admium/images/logo.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>https://deviant-assets.objectstore.true.nl/covers/9789463260077
+                    </ProductThumbnailLocation>
+                    <ProductFamilyName>Engels BBL</ProductFamilyName>
+                    <Title>Engels Verkort (BBL)</Title>
+                    <Authors>
+                        <Author>Uitgeverij Deviant bv</Author>
+                    </Authors>
+                    <AccessLocation>https://www.studiemeter.nl/9789463260077</AccessLocation>
+                    <FollowupProduct>9789463260602</FollowupProduct>
+                    <ProductState>Zal niet verschijnen</ProductState>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>false</IsConsumptionProduct>
+                    <Sectors>
+                        <Sector>MBO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Engels</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>MBO2</Level>
+                        <Level>MBO3</Level>
+                        <Level>MBO4</Level>
+                    </Levels>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Currency>EUR</Currency>
+                    <PriceVATLow>2100</PriceVATLow>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <ActivationBefore>
+                        <ActivationBeforeDays>1095</ActivationBeforeDays>
+                    </ActivationBefore>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <LastModifiedDate>2018-06-08T00:00:00+02:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>deviant_test:7ea5f4e4-4515-5198-8b97-c492237df6d5</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                    <ProductId>9789463260329</ProductId>
+                    <Publisher>Uitgeverij Deviant bv</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.uitgeverij-deviant.nl/wp-content/themes/admium/images/logo.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>https://deviant-assets.objectstore.true.nl/covers/9789463260329
+                    </ProductThumbnailLocation>
+                    <ProductFamilyName>Engels BBL</ProductFamilyName>
+                    <Title>Engels Verkort (BBL) licentie</Title>
+                    <Authors>
+                        <Author>Uitgeverij Deviant bv</Author>
+                    </Authors>
+                    <AccessLocation>https://www.studiemeter.nl/9789463260329</AccessLocation>
+                    <FollowupProduct>9789463260602</FollowupProduct>
+                    <ProductState>Zal niet verschijnen</ProductState>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Web browser</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <Sectors>
+                        <Sector>MBO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Engels</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>MBO2</Level>
+                        <Level>MBO3</Level>
+                        <Level>MBO4</Level>
+                    </Levels>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Currency>EUR</Currency>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <ActivationBefore>
+                        <ActivationBeforeDays>1095</ActivationBeforeDays>
+                    </ActivationBefore>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <LastModifiedDate>2018-07-06T00:00:00+02:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>deviant_test:12bf6776-6cd0-50b6-b6e3-5119628278cd</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                    <ProductId>9789076944906</ProductId>
+                    <Publisher>Uitgeverij Deviant bv</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.uitgeverij-deviant.nl/wp-content/themes/admium/images/logo.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>https://deviant-assets.objectstore.true.nl/covers/9789076944906
+                    </ProductThumbnailLocation>
+                    <ProductFamilyName>VIA</ProductFamilyName>
+                    <Title>VIA Werkboek A2 BBL</Title>
+                    <Authors>
+                        <Author>Rieke Wynia</Author>
+                    </Authors>
+                    <AccessLocation>https://www.studiemeter.nl/9789076944906</AccessLocation>
+                    <FirstPublishedDate>2012-07-02T00:00:00+02:00</FirstPublishedDate>
+                    <EndOfLifeDate>2015-03-31T00:00:00+02:00</EndOfLifeDate>
+                    <LastRevisionDate>2012-07-02T00:00:00+02:00</LastRevisionDate>
+                    <Edition>1Druk</Edition>
+                    <ProductState>Niet meer leverbaar</ProductState>
+                    <InformationLocation>https://www.uitgeverij-deviant.nl/methode/nederlands/via/</InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>false</IsConsumptionProduct>
+                    <Sectors>
+                        <Sector>MBO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Nederlands</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>A2</Level>
+                    </Levels>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Currency>EUR</Currency>
+                    <PriceVATLow>1850</PriceVATLow>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <ActivationBefore>
+                        <ActivationBeforeDays>1095</ActivationBeforeDays>
+                    </ActivationBefore>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <LastModifiedDate>2018-06-08T00:00:00+02:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>deviant_test:cce1ac10-ca1b-5128-9d8f-82fc1a692780</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                    <ProductId>9789463260633</ProductId>
+                    <Publisher>Uitgeverij Deviant bv</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.uitgeverij-deviant.nl/wp-content/themes/admium/images/logo.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>https://deviant-assets.objectstore.true.nl/covers/9789463260633
+                    </ProductThumbnailLocation>
+                    <ProductFamilyName>Schokland</ProductFamilyName>
+                    <Title>Burgerschap BBL</Title>
+                    <Authors>
+                        <Author>Uitgeverij Deviant bv</Author>
+                    </Authors>
+                    <AccessLocation>https://www.studiemeter.nl/9789463260633</AccessLocation>
+                    <FirstPublishedDate>2018-06-01T00:00:00+02:00</FirstPublishedDate>
+                    <LastRevisionDate>2017-12-22T00:00:00+01:00</LastRevisionDate>
+                    <Edition>2Druk</Edition>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.uitgeverij-deviant.nl/methodes/burgerschap/schokland-werkboek-niveau-3-4/
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>false</IsConsumptionProduct>
+                    <Sectors>
+                        <Sector>MBO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Burgerschap</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>MBO2</Level>
+                        <Level>MBO3</Level>
+                        <Level>MBO4</Level>
+                    </Levels>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Currency>EUR</Currency>
+                    <PriceVATLow>2005</PriceVATLow>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <ActivationBefore>
+                        <ActivationBeforeDays>1095</ActivationBeforeDays>
+                    </ActivationBefore>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <LastModifiedDate>2018-12-31T00:00:00+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>deviant_test:6016bebb-a1b6-5e7f-be5a-f69693366324</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                    <ProductId>9789490998356</ProductId>
+                    <Publisher>Uitgeverij Deviant bv</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.uitgeverij-deviant.nl/wp-content/themes/admium/images/logo.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>https://deviant-assets.objectstore.true.nl/covers/9789490998356
+                    </ProductThumbnailLocation>
+                    <ProductFamilyName>VIA</ProductFamilyName>
+                    <Title>VIA Werkboek 3F BBL</Title>
+                    <Authors>
+                        <Author>Rieke Wynia</Author>
+                        <Author>Hans Kruger</Author>
+                        <Author>Elouise de Beer</Author>
+                        <Author>Leonie Reijers</Author>
+                    </Authors>
+                    <AccessLocation>https://www.studiemeter.nl/9789490998356</AccessLocation>
+                    <FirstPublishedDate>2012-07-02T00:00:00+02:00</FirstPublishedDate>
+                    <EndOfLifeDate>2016-03-31T00:00:00+02:00</EndOfLifeDate>
+                    <LastRevisionDate>2012-07-02T00:00:00+02:00</LastRevisionDate>
+                    <Edition>1Druk</Edition>
+                    <ProductState>Niet meer leverbaar</ProductState>
+                    <InformationLocation>https://www.uitgeverij-deviant.nl/methode/nederlands/via/</InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>false</IsConsumptionProduct>
+                    <Sectors>
+                        <Sector>MBO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Nederlands</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>3F</Level>
+                    </Levels>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Currency>EUR</Currency>
+                    <PriceVATLow>1850</PriceVATLow>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <ActivationBefore>
+                        <ActivationBeforeDays>1095</ActivationBeforeDays>
+                    </ActivationBefore>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <LastModifiedDate>2018-06-08T00:00:00+02:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>deviant_test:a8cf8c1d-32bc-56a5-985a-4c608909c3cd</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                    <ProductId>9789490998035</ProductId>
+                    <Publisher>Uitgeverij Deviant bv</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.uitgeverij-deviant.nl/wp-content/themes/admium/images/logo.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>https://deviant-assets.objectstore.true.nl/covers/9789490998035
+                    </ProductThumbnailLocation>
+                    <ProductFamilyName>VIA</ProductFamilyName>
+                    <Title>VIA Werkboek 2F BBL</Title>
+                    <Authors>
+                        <Author>Rieke Wynia</Author>
+                    </Authors>
+                    <AccessLocation>https://www.studiemeter.nl/9789490998035</AccessLocation>
+                    <SubProducts>
+                        <ProductId>9789463260282</ProductId>
+                    </SubProducts>
+                    <FirstPublishedDate>2012-07-02T00:00:00+02:00</FirstPublishedDate>
+                    <DeprecationDate>2019-04-01T00:00:00+02:00</DeprecationDate>
+                    <SupportedUntilDate>2019-04-01T00:00:00+02:00</SupportedUntilDate>
+                    <EndOfLifeDate>2019-04-01T00:00:00+02:00</EndOfLifeDate>
+                    <LastRevisionDate>2012-07-02T00:00:00+02:00</LastRevisionDate>
+                    <Edition>1Druk</Edition>
+                    <ProductState>Beperkt leverbaar</ProductState>
+                    <InformationLocation>https://www.uitgeverij-deviant.nl/methode/nederlands/via/</InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>false</IsConsumptionProduct>
+                    <Sectors>
+                        <Sector>MBO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Nederlands</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>2F</Level>
+                    </Levels>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Currency>EUR</Currency>
+                    <PriceVATLow>2055</PriceVATLow>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <ActivationBefore>
+                        <ActivationBeforeDays>1095</ActivationBeforeDays>
+                    </ActivationBefore>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <LastModifiedDate>2018-12-31T00:00:00+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+    </srw:records>
+    <srw:echoedSearchRetrieveRequest>
+        <srw:version>1.2</srw:version>
+        <srw:query>BBL</srw:query>
+        <srw:startRecord>1</srw:startRecord>
+        <srw:maximumRecords>50</srw:maximumRecords>
+        <srw:recordPacking>xml</srw:recordPacking>
+        <srw:recordSchema>eckcs2.2</srw:recordSchema>
+        <srw:extraRequestData>
+            <dd:drilldown
+                    xmlns:dd="http://meresco.org/namespace/drilldown"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://meresco.org/namespace/drilldown http://meresco.org/files/xsd/drilldown-20070730.xsd">
+                <dd:term-drilldown>meta.repository.id:5</dd:term-drilldown>
+            </dd:drilldown>
+        </srw:extraRequestData>
+    </srw:echoedSearchRetrieveRequest>
+    <srw:extraResponseData>
+        <dd:drilldown
+                xmlns:dd="http://meresco.org/namespace/drilldown"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://meresco.org/namespace/drilldown http://meresco.org/files/xsd/drilldown-20070730.xsd">
+            <dd:term-drilldown>
+                <dd:navigator name="meta.repository.id">
+                    <dd:item count="6">deviant_test</dd:item>
+                </dd:navigator>
+            </dd:term-drilldown>
+        </dd:drilldown>
+        <querytimes xmlns="http://meresco.org/namespace/timing">
+            <sruHandling>PT0.008S</sruHandling>
+            <sruQueryTime>PT0.004S</sruQueryTime>
+            <index>PT0.001S</index>
+        </querytimes>
+    </srw:extraResponseData>
+</srw:searchRetrieveResponse>
