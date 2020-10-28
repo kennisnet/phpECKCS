@@ -1,12 +1,9 @@
 <?php
-declare(strict_types=1);
+
 
 namespace Kennisnet\ECK;
 
 use DOMNode;
-use Kennisnet\ECK\ResponseSerializer\ElementArray;
-use Kennisnet\ECK\ResponseSerializer\ElementString;
-use Kennisnet\ECK\ResponseSerializer\ElementValue;
 
 class ResponseSerializer
 {
@@ -28,7 +25,7 @@ class ResponseSerializer
             $recordId = trim($xpath->evaluate("string(./srw:recordIdentifier/text()[1])", $record));
             $nodeList = $xpath->evaluate("./srw:recordData", $record);
             if ($nodeList && $nodeList->length) {
-                $recordData = $this->serializeToArray($nodeList->item(0),null, $data);
+                $recordData = $this->serializeToArray($nodeList->item(0));
                 if ($recordData && $recordData['recordData']) {
                     $data[$recordId] = $recordData['recordData'];
                 }
@@ -38,11 +35,11 @@ class ResponseSerializer
         return $data;
     }
 
-    function serializeToArray(DOMNode $element, ?ElementValue $nodeValue = null, array &$recordData = [], int $level = 0
+    function serializeToArray(DOMNode $element, &$recordData = [], int $level = 0
     ): ?array {
         $level++;
         //list attributes
-        if ($element->attributes !== null) {
+        if ($element->attributes !== null && is_array($recordData)) {
             foreach ($element->attributes as $attribute) {
                 if (isset($recordData['_attributes'][$attribute->name])) {
                     if (is_string($recordData['_attributes'][$attribute->name])) {
@@ -69,12 +66,11 @@ class ResponseSerializer
             // Remove the xml ns prefix if part of current nodeName
             $key = str_replace($prefix . ':', '', $element->nodeName);
             // Iterates recursive to all children and pass the $recordData with reference
-            if ($element->childNodes !== null) {
+            if ($element->hasChildNodes()) {
                 $children = $element->childNodes;
                 for ($i = 0; $i < $children->length; $i++) {
-                    if($children->item($i) !== null && isset($recordData[$key])) {
-                        $value = is_array($recordData[$key]) ? new ElementArray($recordData[$key]) : new ElementString($recordData[$key]);
-                        $this->serializeToArray($children->item($i), $value, $recordData[$key], $level);
+                    if ($children->item($i) !== null) {
+                        $this->serializeToArray($children->item($i), $recordData[$key], $level);
                     }
                 }
             }
@@ -85,24 +81,24 @@ class ResponseSerializer
                 $value = trim($element->nodeValue);
                 if (!empty($value)) {
                     // Is array && not equal the current value as set before, convert it to an array.
-                    if (!$nodeValue) {
-                        $recordData = $value;
+                    if (is_string($recordData)) {
+                        $recordData = [$recordData, $value];
                     } else {
-                        if ($nodeValue->isArray()) {
+                        if (is_array($recordData)) {
                             $recordData[] = $value;
                         } else {
-                            $recordData = [$nodeValue->getValue(), $value];
+                            $recordData = $value;
                         }
                     }
                 }
             }
         }
-
-        if ($level == 1 && is_array($recordData)) {
+        if ($level == 1) {
             return $recordData;
         }
 
         return null;
     }
+
 
 }
