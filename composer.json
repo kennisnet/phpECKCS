@@ -1,6 +1,8 @@
 {
-  "name": "kennisnet/eck",
-  "description": "Catalogservice search tool",
+  "name": "kennisnet/phpeckcs",
+  "description": "PHP normalizer for ECK records from Koppelpunt Catalogusinformatie",
+  "homepage": "https://github.com/kennisnet/phpECKCS",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Kennisnet\\ECK\\": "src/",
