@@ -1,0 +1,7 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method Kennisnet\\\\ECK\\\\ResponseSerializer\\:\\:serializeToArray\\(\\) has parameter \\$recordData with no typehint specified\\.$#"
+			count: 1
+			path: src/ResponseSerializer.php
+
