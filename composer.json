@@ -3,6 +3,7 @@
   "description": "PHP normalizer for ECK records from Koppelpunt Catalogusinformatie",
   "homepage": "https://github.com/kennisnet/phpECKCS",
   "license": "MIT",
+  "version": "1.0.0",
   "autoload": {
     "psr-4": {
       "Kennisnet\\ECK\\": "src/",
