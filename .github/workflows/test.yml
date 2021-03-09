@@ -21,9 +21,11 @@ jobs:
           key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
           restore-keys: |
             ${{ runner.os }}-php-
-          php_version: 7.3
 
       - name: Install dependencies
+        uses: php-actions/composer@v5
+        with:
+          php_version: 7.3
         run: composer install --prefer-dist --no-progress --no-suggest
 
       - name: Run php-stan
