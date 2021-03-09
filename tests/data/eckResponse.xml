@@ -5,11 +5,11 @@
     <srw:numberOfRecords>6</srw:numberOfRecords>
     <srw:records>
         <srw:record>
-            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
             <srw:recordIdentifier>deviant_test:5995920c-c6aa-5ddd-aa80-f2bbbdf545d6</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3">
                     <ProductId>9789463260077</ProductId>
                     <Publisher>Uitgeverij Deviant bv</Publisher>
                     <PublisherThumbnailLocation>
@@ -53,11 +53,11 @@
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
             <srw:recordIdentifier>deviant_test:7ea5f4e4-4515-5198-8b97-c492237df6d5</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3">
                     <ProductId>9789463260329</ProductId>
                     <Publisher>Uitgeverij Deviant bv</Publisher>
                     <PublisherThumbnailLocation>
@@ -100,11 +100,11 @@
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
             <srw:recordIdentifier>deviant_test:12bf6776-6cd0-50b6-b6e3-5119628278cd</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3">
                     <ProductId>9789076944906</ProductId>
                     <Publisher>Uitgeverij Deviant bv</Publisher>
                     <PublisherThumbnailLocation>
@@ -150,11 +150,11 @@
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
             <srw:recordIdentifier>deviant_test:cce1ac10-ca1b-5128-9d8f-82fc1a692780</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3">
                     <ProductId>9789463260633</ProductId>
                     <Publisher>Uitgeverij Deviant bv</Publisher>
                     <PublisherThumbnailLocation>
@@ -203,11 +203,11 @@
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
             <srw:recordIdentifier>deviant_test:6016bebb-a1b6-5e7f-be5a-f69693366324</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3">
                     <ProductId>9789490998356</ProductId>
                     <Publisher>Uitgeverij Deviant bv</Publisher>
                     <PublisherThumbnailLocation>
@@ -256,11 +256,11 @@
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.2</srw:recordSchema>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
             <srw:recordIdentifier>deviant_test:a8cf8c1d-32bc-56a5-985a-4c608909c3cd</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.2">
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3">
                     <ProductId>9789490998035</ProductId>
                     <Publisher>Uitgeverij Deviant bv</Publisher>
                     <PublisherThumbnailLocation>
@@ -317,7 +317,7 @@
         <srw:startRecord>1</srw:startRecord>
         <srw:maximumRecords>50</srw:maximumRecords>
         <srw:recordPacking>xml</srw:recordPacking>
-        <srw:recordSchema>eckcs2.2</srw:recordSchema>
+        <srw:recordSchema>eckcs2.3</srw:recordSchema>
         <srw:extraRequestData>
             <dd:drilldown
                     xmlns:dd="http://meresco.org/namespace/drilldown"

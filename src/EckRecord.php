@@ -5,10 +5,15 @@ namespace Kennisnet\ECK;
 
 class EckRecord
 {
+    /** @deprecated since 1.0.1 */
     const TITLE       = 'Title';
+    /** @deprecated since 1.0.1 */
     const DESCRIPTION = 'Description';
-    const LOCATION    = 'InformationLocation';
+    /** @deprecated since 1.0.1 */
+    const INFORMATION_LOCATION = 'InformationLocation';
+    /** @deprecated since 1.0.1 */
     const PUBLISHER   = 'Publisher';
+    /** @deprecated since 1.0.1 */
     const AUTHORS     = 'Authors';
 
     /**
@@ -29,7 +34,7 @@ class EckRecord
     /**
      * @var string
      */
-    private $location = '';
+    private $informationLocation = '';
 
     /**
      * @var string
@@ -59,9 +64,7 @@ class EckRecord
 
     public function setDescription(string $description): void
     {
-        if (null !== $description) {
-            $this->description = $description;
-        }
+        $this->description = $description;
     }
 
     public function getDescription(): string
@@ -69,14 +72,20 @@ class EckRecord
         return $this->description;
     }
 
+    /**
+     * @deprecated Since 1.0.1
+     */
     public function getLocation(): string
     {
-        return $this->location;
+        return $this->informationLocation;
     }
 
+    /**
+     * @deprecated Since 1.0.1
+     */
     public function setLocation(string $location): void
     {
-        $this->location = $location;
+        $this->informationLocation = $location;
     }
 
     public function getPublisher(): string
@@ -110,6 +119,16 @@ class EckRecord
         if (!in_array($author, $this->authors)) {
             $this->authors[] = $author;
         }
+    }
+
+    public function getInformationLocation(): string
+    {
+        return $this->informationLocation;
+    }
+
+    public function setInformationLocation(string $informationLocation): void
+    {
+        $this->informationLocation = $informationLocation;
     }
 
 }
