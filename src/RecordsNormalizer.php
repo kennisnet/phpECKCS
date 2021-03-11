@@ -3,24 +3,23 @@ declare(strict_types=1);
 
 namespace Kennisnet\ECK;
 
-use Kennisnet\ECK\Exception\MapperException;
+use Kennisnet\ECK\Exception\RecordSchemaNotSupportedException;
 use Kennisnet\ECK\Mapper\ArrayToEckRecordMapper;
+use Kennisnet\ECK\Model\EckRecord;
 
 class RecordsNormalizer
 {
     /**
      * @return array<string,EckRecord>|array
-     * @throws MapperException
+     * @throws RecordSchemaNotSupportedException
      */
     public function normalize(array $recordData, string $schema): array
     {
         switch ($schema) {
             case EckRecordSchemaTypes::ECKCS_2_3:
-            case EckRecordSchemaTypes::ECKCS_2_2:
-            case EckRecordSchemaTypes::ECKCS_2_1_1:
                 return $this->normalizeECKCS($recordData);
             default:
-                return [];
+                throw RecordSchemaNotSupportedException::becauseTheRecordSchemaIsNotSupported($schema);
         }
     }
 
@@ -28,8 +27,6 @@ class RecordsNormalizer
      * @param iterable $data
      *
      * @return array<string,EckRecord>
-     *
-     * @throws MapperException
      */
     private function normalizeECKCS(iterable $data): array
     {
@@ -50,9 +47,6 @@ class RecordsNormalizer
      */
     public function deserializeFromSearchResponse(string $responseString): array
     {
-        $responseSerialzer = new ResponseSerializer();
-
-        return $responseSerialzer->deserialize($responseString);
+        return (new ResponseSerializer())->deserialize($responseString);
     }
-
 }
