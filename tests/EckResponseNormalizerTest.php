@@ -4,7 +4,7 @@ namespace Kennisnet\ECK\Tests;
 
 use Kennisnet\ECK\EckRecordSchemaTypes;
 use Kennisnet\ECK\Exception\RecordSchemaNotSupportedException;
-use Kennisnet\ECK\Model\EckRecord;
+use Kennisnet\ECK\EckRecord;
 use Kennisnet\ECK\RecordsNormalizer;
 use PHPUnit\Framework\TestCase;
 

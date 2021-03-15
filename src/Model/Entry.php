@@ -5,19 +5,8 @@ namespace Kennisnet\ECK\Model;
 
 use DateTimeImmutable;
 
-class EckRecord
+class Entry
 {
-    /** @deprecated since 1.1.0 */
-    const TITLE       = 'Title';
-    /** @deprecated since 1.1.0 */
-    const DESCRIPTION = 'Description';
-    /** @deprecated since 1.1.0 */
-    const INFORMATION_LOCATION = 'InformationLocation';
-    /** @deprecated since 1.1.0 */
-    const PUBLISHER   = 'Publisher';
-    /** @deprecated since 1.1.0 */
-    const AUTHORS     = 'Authors';
-
     /** @var string */
     private $recordId = '';
 
@@ -183,10 +172,9 @@ class EckRecord
     /** @var string|null */
     private $copyright = null;
 
-    public function __construct(string $recordId, string $title)
+    public function __construct(string $recordId)
     {
         $this->recordId = $recordId;
-        $this->title    = $title;
     }
 
     public function getRecordId(): string
@@ -197,6 +185,11 @@ class EckRecord
     public function getTitle(): string
     {
         return $this->title;
+    }
+
+    public function setTitle(string $title): void
+    {
+        $this->title = $title;
     }
 
     public function getLastModifiedDate(): ?DateTimeImmutable
@@ -217,22 +210,6 @@ class EckRecord
     public function getDescription(): string
     {
         return $this->description;
-    }
-
-    /**
-     * @deprecated Since 1.1.0
-     */
-    public function getLocation(): string
-    {
-        return $this->informationLocation ?? '';
-    }
-
-    /**
-     * @deprecated Since 1.1.0
-     */
-    public function setLocation(string $location): void
-    {
-        $this->informationLocation = $location;
     }
 
     public function getPublisher(): string

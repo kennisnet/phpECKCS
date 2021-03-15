@@ -5,7 +5,7 @@ namespace Kennisnet\ECK;
 
 use Kennisnet\ECK\Exception\RecordSchemaNotSupportedException;
 use Kennisnet\ECK\Mapper\ArrayToEckRecordMapper;
-use Kennisnet\ECK\Model\EckRecord;
+use Kennisnet\ECK\EckRecord;
 
 class RecordsNormalizer
 {

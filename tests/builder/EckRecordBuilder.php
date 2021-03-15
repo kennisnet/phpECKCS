@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace Kennisnet\ECK\Tests\builder;
 
 use DateTimeImmutable;
-use Kennisnet\ECK\Model\EckRecord;
+use Kennisnet\ECK\EckRecord;
 use Kennisnet\ECK\Model\Prices;
 
 final class EckRecordBuilder
