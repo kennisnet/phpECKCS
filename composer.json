@@ -22,5 +22,8 @@
     "test": "vendor/bin/phpunit",
     "test:coverage": "vendor/bin/phpunit --coverage-html .coverage",
     "analyse": "vendor/bin/phpstan analyse"
+  },
+  "suggest": {
+    "kennisnet/edurepsearch": "Provides a standard interface for browsing and searching in the CatalogService."
   }
 }
