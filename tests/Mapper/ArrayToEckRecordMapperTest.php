@@ -5,7 +5,7 @@ namespace Kennisnet\ECK\Tests\Mapper;
 
 use DateTimeImmutable;
 use Kennisnet\ECK\Mapper\ArrayToEckRecordMapper;
-use Kennisnet\ECK\Model\EckRecord;
+use Kennisnet\ECK\EckRecord;
 use Kennisnet\ECK\ResponseSerializer;
 use Kennisnet\ECK\Tests\builder\EckRecordBuilder;
 use Kennisnet\ECK\Tests\builder\PriceBuilder;

@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Kennisnet\ECK\Mapper;
 
-use Kennisnet\ECK\Model\EckRecord;
+use Kennisnet\ECK\EckRecord;
 
 final class ArrayToEckRecordMapper
 {
