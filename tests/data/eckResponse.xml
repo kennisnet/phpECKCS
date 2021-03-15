@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<srw:searchRetrieveResponse xmlns:srw="http://www.loc.gov/zing/srw/"
+                            xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/"
+                            xmlns:xcql="http://www.loc.gov/zing/cql/xcql/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+                            xmlns:meresco_srw="http://meresco.org/namespace/srw#">
+    <srw:version>1.2</srw:version>
+    <srw:numberOfRecords>18</srw:numberOfRecords>
+    <srw:records>
+        <srw:record>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>kinheim:07168b06-92e2-5569-aca3-75f13349f8e0</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
+                    <ProductId>9789060523094</ProductId>
+                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/2012/05/712-292-Mijn-Boek-deel-2.png
+                    </ProductThumbnailLocation>
+                    <Title>Mijn Boek 3</Title>
+                    <Authors>
+                        <Author>kinheim</Author>
+                    </Authors>
+                    <Description>Het aanbod van puzzels in Mijn Boek deel 3 omvat: woordzoekers, speurpuzzels, woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
+                    </Description>
+                    <ContentLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-3/?attribute_pa_aantal=los-exemplaar
+                    </ContentLocation>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-3/?attribute_pa_aantal=los-exemplaar
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <ProductUsages>
+                        <ProductUsage>Oefenmateriaal</ProductUsage>
+                    </ProductUsages>
+                    <Sectors>
+                        <Sector>PO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Extra</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>PO</Level>
+                    </Levels>
+                    <Years>
+                        <Year>jaar 3</Year>
+                    </Years>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Price>
+                            <Amount>913</Amount>
+                            <VAT>9</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <Copyright>yes</Copyright>
+                    <LastModifiedDate>2020-01-02T21:14:42+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>kinheim:143d27d4-14ba-5424-9979-75c4fc6feaad</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
+                    <ProductId>9789060523100</ProductId>
+                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/2012/05/713-293-Mijn-Boek-deel-4.png
+                    </ProductThumbnailLocation>
+                    <Title>Mijn Boek 4</Title>
+                    <Authors>
+                        <Author>kinheim</Author>
+                    </Authors>
+                    <Description>Het aanbod van puzzels in Mijn Boek deel 4 omvat: woordzoekers, speurpuzzels,
+                        woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
+                    </Description>
+                    <ContentLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-4/?attribute_pa_aantal=los-exemplaar
+                    </ContentLocation>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-4/?attribute_pa_aantal=los-exemplaar
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <ProductUsages>
+                        <ProductUsage>Oefenmateriaal</ProductUsage>
+                    </ProductUsages>
+                    <Sectors>
+                        <Sector>PO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Extra</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>PO</Level>
+                    </Levels>
+                    <Years>
+                        <Year>jaar 4</Year>
+                    </Years>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Price>
+                            <Amount>913</Amount>
+                            <VAT>9</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <Copyright>yes</Copyright>
+                    <LastModifiedDate>2020-01-15T13:27:33+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>kinheim:25015962-d178-5b1f-ad83-f03547da9f3a</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
+                    <ProductId>9789060523070</ProductId>
+                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/2012/05/710-289-Mijn-Boek-deel-1.png
+                    </ProductThumbnailLocation>
+                    <Title>Mijn Boek 1</Title>
+                    <Authors>
+                        <Author>kinheim</Author>
+                    </Authors>
+                    <Description>Het aanbod van puzzels in Mijn Boek deel 1 omvat: woordzoekers, speurpuzzels,
+                        woordpuzzels en legletters.
+                    </Description>
+                    <ContentLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-1/?attribute_pa_aantal=los-exemplaar
+                    </ContentLocation>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-1/?attribute_pa_aantal=los-exemplaar
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <ProductUsages>
+                        <ProductUsage>Oefenmateriaal</ProductUsage>
+                    </ProductUsages>
+                    <Sectors>
+                        <Sector>PO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Extra</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>PO</Level>
+                    </Levels>
+                    <Years>
+                        <Year>jaar 1</Year>
+                        <Year>jaar 2</Year>
+                    </Years>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Price>
+                            <Amount>913</Amount>
+                            <VAT>9</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <Copyright>yes</Copyright>
+                    <LastModifiedDate>2020-02-12T09:06:37+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>kinheim:4297665a-26bc-55f7-94a5-32417776f48a</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
+                    <ProductId>9789060522738</ProductId>
+                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/2012/02/628-273-Werkgids-Mijn-eigen-Wereld.png
+                    </ProductThumbnailLocation>
+                    <Title>Werkgids Mijn eigen Wereld</Title>
+                    <Authors>
+                        <Author>kinheim</Author>
+                    </Authors>
+                    <Description>Werkgids Mijn Eigen Wereld is een ontdekkingsreis door de eigen omgeving.</Description>
+                    <ContentLocation>
+                        https://www.kinheim.com/leermiddelen/werkgids-mijn-eigen-wereld/?attribute_pa_aantal=los-exemplaar
+                    </ContentLocation>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.kinheim.com/leermiddelen/werkgids-mijn-eigen-wereld/?attribute_pa_aantal=los-exemplaar
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <ProductUsages>
+                        <ProductUsage>Oefenmateriaal</ProductUsage>
+                    </ProductUsages>
+                    <Sectors>
+                        <Sector>PO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Aardrijkskunde</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>PO</Level>
+                    </Levels>
+                    <Years>
+                        <Year>jaar 4</Year>
+                        <Year>jaar 5</Year>
+                    </Years>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Price>
+                            <Amount>913</Amount>
+                            <VAT>9</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <Copyright>yes</Copyright>
+                    <LastModifiedDate>2020-01-15T13:32:07+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>kinheim:5d364693-b5f4-5534-b914-e38ce7a527bc</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
+                    <ProductId>9789060523124</ProductId>
+                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/2012/05/715-297-Mijn-Boek-deel-6.png
+                    </ProductThumbnailLocation>
+                    <Title>Mijn Boek 6</Title>
+                    <Authors>
+                        <Author>kinheim</Author>
+                    </Authors>
+                    <Description>Het aanbod van puzzels in Mijn Boek deel 6 omvat: woordzoekers, speurpuzzels,
+                        woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
+                    </Description>
+                    <ContentLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-6/?attribute_pa_aantal=los-exemplaar
+                    </ContentLocation>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-6/?attribute_pa_aantal=los-exemplaar
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <ProductUsages>
+                        <ProductUsage>Oefenmateriaal</ProductUsage>
+                    </ProductUsages>
+                    <Sectors>
+                        <Sector>PO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Extra</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>PO</Level>
+                    </Levels>
+                    <Years>
+                        <Year>jaar 6</Year>
+                    </Years>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Price>
+                            <Amount>913</Amount>
+                            <VAT>9</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <Copyright>yes</Copyright>
+                    <LastModifiedDate>2020-02-12T09:06:43+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>kinheim:5e51316c-4438-5ac7-bae2-c9022b700466</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
+                    <ProductId>9789060523117</ProductId>
+                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/2012/05/714-295-Mijn-Boek-deel-5.png
+                    </ProductThumbnailLocation>
+                    <Title>Mijn Boek 5</Title>
+                    <Authors>
+                        <Author>kinheim</Author>
+                    </Authors>
+                    <Description>Het aanbod van puzzels in Mijn Boek deel 5 omvat: woordzoekers, speurpuzzels,
+                        woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
+                    </Description>
+                    <ContentLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-5/?attribute_pa_aantal=los-exemplaar
+                    </ContentLocation>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-5/?attribute_pa_aantal=los-exemplaar
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <ProductUsages>
+                        <ProductUsage>Oefenmateriaal</ProductUsage>
+                    </ProductUsages>
+                    <Sectors>
+                        <Sector>PO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Extra</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>PO</Level>
+                    </Levels>
+                    <Years>
+                        <Year>jaar 5</Year>
+                    </Years>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Price>
+                            <Amount>913</Amount>
+                            <VAT>9</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <Copyright>yes</Copyright>
+                    <LastModifiedDate>2020-01-02T21:14:45+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>kinheim:80e61bab-2cae-54b1-a9be-acb6ec053e3a</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
+                    <ProductId>urn:kinheim:9789060523070</ProductId>
+                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/2012/05/710-289-Mijn-Boek-deel-1.png
+                    </ProductThumbnailLocation>
+                    <Title>Mijn Boek 1 - Set van 5</Title>
+                    <Authors>
+                        <Author>kinheim</Author>
+                    </Authors>
+                    <Description>Het aanbod van puzzels in Mijn Boek deel 1 omvat: woordzoekers, speurpuzzels,
+                        woordpuzzels en legletters.
+                    </Description>
+                    <ContentLocation>https://www.kinheim.com/leermiddelen/mijn-boek-1/?attribute_pa_aantal=set-van-5
+                    </ContentLocation>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-1/?attribute_pa_aantal=set-van-5
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <ProductUsages>
+                        <ProductUsage>Oefenmateriaal</ProductUsage>
+                    </ProductUsages>
+                    <Sectors>
+                        <Sector>PO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Extra</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>PO</Level>
+                    </Levels>
+                    <Years>
+                        <Year>jaar 1</Year>
+                        <Year>jaar 2</Year>
+                    </Years>
+                    <SaleUnitSize>5</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Price>
+                            <Amount>3206</Amount>
+                            <VAT>9</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <Copyright>yes</Copyright>
+                    <LastModifiedDate>2020-02-12T09:06:37+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>kinheim:9631a4fa-4d46-57e7-96f5-1d107f10e408</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
+                    <ProductId>9789060523131</ProductId>
+                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/2012/05/716-298-Mijn-Boek-deel-7.png
+                    </ProductThumbnailLocation>
+                    <Title>Mijn Boek 7</Title>
+                    <Authors>
+                        <Author>kinheim</Author>
+                    </Authors>
+                    <Description>Het aanbod van puzzels in Mijn Boek deel 7 omvat: woordzoekers, speurpuzzels,
+                        woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
+                    </Description>
+                    <ContentLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-7/?attribute_pa_aantal=los-exemplaar
+                    </ContentLocation>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-7/?attribute_pa_aantal=los-exemplaar
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <ProductUsages>
+                        <ProductUsage>Oefenmateriaal</ProductUsage>
+                    </ProductUsages>
+                    <Sectors>
+                        <Sector>PO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Extra</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>PO</Level>
+                    </Levels>
+                    <Years>
+                        <Year>jaar 7</Year>
+                    </Years>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Price>
+                            <Amount>913</Amount>
+                            <VAT>9</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <Copyright>yes</Copyright>
+                    <LastModifiedDate>2020-01-02T21:14:48+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>kinheim:ccd686e6-dcb6-58f4-9ac8-b0e7686e1105</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
+                    <ProductId>9789060523087</ProductId>
+                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/2012/05/711-290-Mijn-Boek-deel-2.png
+                    </ProductThumbnailLocation>
+                    <Title>Mijn Boek 2</Title>
+                    <Authors>
+                        <Author>kinheim</Author>
+                    </Authors>
+                    <Description>Het aanbod van puzzels in Mijn Boek deel 2 omvat: woordzoekers, speurpuzzels,
+                        woordpuzzels en legletters.
+                    </Description>
+                    <ContentLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-2/?attribute_pa_aantal=los-exemplaar
+                    </ContentLocation>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-2/?attribute_pa_aantal=los-exemplaar
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <ProductUsages>
+                        <ProductUsage>Oefenmateriaal</ProductUsage>
+                    </ProductUsages>
+                    <Sectors>
+                        <Sector>PO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Extra</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>PO</Level>
+                    </Levels>
+                    <Years>
+                        <Year>jaar 1</Year>
+                        <Year>jaar 2</Year>
+                    </Years>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Price>
+                            <Amount>913</Amount>
+                            <VAT>9</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <Copyright>yes</Copyright>
+                    <LastModifiedDate>2020-01-02T21:14:40+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>kinheim:d211ffea-ba91-5d74-8b1d-ce5860d146c7</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
+                    <ProductId>urn:kinheim:9789060523087</ProductId>
+                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://www.kinheim.com/wp-content/uploads/2012/05/711-290-Mijn-Boek-deel-2.png
+                    </ProductThumbnailLocation>
+                    <Title>Mijn Boek 2 - Set van 5</Title>
+                    <Authors>
+                        <Author>kinheim</Author>
+                    </Authors>
+                    <Description>Het aanbod van puzzels in Mijn Boek deel 2 omvat: woordzoekers, speurpuzzels,
+                        woordpuzzels en legletters.
+                    </Description>
+                    <ContentLocation>https://www.kinheim.com/leermiddelen/mijn-boek-2/?attribute_pa_aantal=set-van-5
+                    </ContentLocation>
+                    <ProductState>Leverbaar</ProductState>
+                    <InformationLocation>
+                        https://www.kinheim.com/leermiddelen/mijn-boek-2/?attribute_pa_aantal=set-van-5
+                    </InformationLocation>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Boek</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <ProductUsages>
+                        <ProductUsage>Oefenmateriaal</ProductUsage>
+                    </ProductUsages>
+                    <Sectors>
+                        <Sector>PO</Sector>
+                    </Sectors>
+                    <Courses>
+                        <Course>Extra</Course>
+                    </Courses>
+                    <Levels>
+                        <Level>PO</Level>
+                    </Levels>
+                    <Years>
+                        <Year>jaar 1</Year>
+                        <Year>jaar 2</Year>
+                    </Years>
+                    <SaleUnitSize>5</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Price>
+                            <Amount>3206</Amount>
+                            <VAT>9</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>false</PriceIsIndicative>
+                    <IsLicensed>false</IsLicensed>
+                    <IsCatalogItem>true</IsCatalogItem>
+                    <Copyright>yes</Copyright>
+                    <LastModifiedDate>2020-01-02T21:08:42+01:00</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+    </srw:records>
+    <srw:nextRecordPosition>11</srw:nextRecordPosition>
+    <srw:echoedSearchRetrieveRequest>
+        <srw:version>1.2</srw:version>
+        <srw:query>mijn AND ((meta.repository.id exact kinheim))</srw:query>
+        <srw:startRecord>1</srw:startRecord>
+        <srw:maximumRecords>10</srw:maximumRecords>
+        <srw:recordPacking>xml</srw:recordPacking>
+        <srw:recordSchema>eckcs2.3</srw:recordSchema>
+        <srw:extraRequestData>
+            <dd:drilldown
+                    xmlns:dd="http://meresco.org/namespace/drilldown"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://meresco.org/namespace/drilldown http://meresco.org/files/xsd/drilldown-20070730.xsd">
+                <dd:term-drilldown>
+                    Publisher:50,ProductState,IntendedEndUserRole,Medium,IsConsumptionProduct,Sectors.Sector
+                </dd:term-drilldown>
+            </dd:drilldown>
+        </srw:extraRequestData>
+    </srw:echoedSearchRetrieveRequest>
+    <srw:extraResponseData>
+        <dd:drilldown
+                xmlns:dd="http://meresco.org/namespace/drilldown"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://meresco.org/namespace/drilldown http://meresco.org/files/xsd/drilldown-20070730.xsd">
+            <dd:term-drilldown>
+                <dd:navigator name="Publisher">
+                    <dd:item count="18">Educatieve Uitgeverij Kinheim</dd:item>
+                </dd:navigator>
+                <dd:navigator name="ProductState">
+                    <dd:item count="18">Leverbaar</dd:item>
+                </dd:navigator>
+                <dd:navigator name="IntendedEndUserRole">
+                    <dd:item count="18">Onderwijsvolger</dd:item>
+                </dd:navigator>
+                <dd:navigator name="Medium">
+                    <dd:item count="18">Boek</dd:item>
+                </dd:navigator>
+                <dd:navigator name="IsConsumptionProduct">
+                    <dd:item count="18">true</dd:item>
+                </dd:navigator>
+                <dd:navigator name="Sectors.Sector">
+                    <dd:item count="18">PO</dd:item>
+                </dd:navigator>
+            </dd:term-drilldown>
+        </dd:drilldown>
+        <querytimes xmlns="http://meresco.org/namespace/timing">
+            <sruHandling>PT0.012S</sruHandling>
+            <sruQueryTime>PT0.005S</sruQueryTime>
+            <index>PT0.001S</index>
+        </querytimes>
+    </srw:extraResponseData>
+</srw:searchRetrieveResponse>
