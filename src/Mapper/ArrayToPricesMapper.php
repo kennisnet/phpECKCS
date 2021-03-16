@@ -12,7 +12,7 @@ final class ArrayToPricesMapper
         $prices = new Prices();
         $prices->setCurrency($pricesArray['Currency'] ?? '');
         $prices->setConsumerPrice(StringToIntMapper::mapStringToInt($pricesArray['ConsumerPrice'] ?? null));
-        $prices->setPrice(ArrayToPriceMapper::mapArrayToPrices($pricesArray['Price']));
+        $prices->setPrice(ArrayToPriceMapper::mapArrayToPrices($pricesArray['Price'] ?? []));
         return $prices;
     }
 }

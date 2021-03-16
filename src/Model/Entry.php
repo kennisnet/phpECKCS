@@ -146,8 +146,8 @@ class Entry
      * ActivationBefore<complex>
      **/
 
-    /** @var string[] */
-    private $licenseAvailabilityOptions = [];
+    /** @var string|null */
+    private $licenseAvailabilityOptions = null;
 
     /** @var DateTimeImmutable|null */
     private $licenseStartDate = null;
@@ -575,12 +575,12 @@ class Entry
         $this->isLicensed = $isLicensed;
     }
 
-    public function getLicenseAvailabilityOptions(): array
+    public function getLicenseAvailabilityOptions(): ?string
     {
         return $this->licenseAvailabilityOptions;
     }
 
-    public function setLicenseAvailabilityOptions(array $licenseAvailabilityOptions): void
+    public function setLicenseAvailabilityOptions(?string $licenseAvailabilityOptions): void
     {
         $this->licenseAvailabilityOptions = $licenseAvailabilityOptions;
     }

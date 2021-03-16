@@ -47,7 +47,7 @@ final class ArrayToEckRecordMapper
         $eckRecord->setPrices(ArrayToPricesMapper::mapArrayToPrices($recordArray['Prices'] ?? []));
         $eckRecord->setPriceIsIndicative(StringToBoolMapper::mapStringToBool($recordArray['PriceIsIndicative'] ?? null));
         $eckRecord->setIsLicensed(StringToBoolMapper::mapStringToBool($recordArray['IsLicensed'] ?? null));
-        $eckRecord->setLicenseAvailabilityOptions(ArrayToStringArrayMapper::mapArrayToStringArray($recordArray['LicenseAvailabilityOptions'] ?? []));
+        $eckRecord->setLicenseAvailabilityOptions($recordArray['LicenseAvailabilityOptions'] ?? null);
         $eckRecord->setLicenseStartDate(StringToDateMapper::mapStringToDate($recordArray['LicenseStartDate'] ?? null));
         $eckRecord->setLicenseEndDate(StringToDateMapper::mapStringToDate($recordArray['LicenseEndDate'] ?? null));
         $eckRecord->setLicenseDuration($recordArray['LicenseDuration'] ?? null);
