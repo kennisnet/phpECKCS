@@ -3,7 +3,6 @@
   "description": "PHP normalizer for ECK records from Koppelpunt Catalogusinformatie",
   "homepage": "https://github.com/kennisnet/phpECKCS",
   "license": "MIT",
-  "version": "1.0.0",
   "autoload": {
     "psr-4": {
       "Kennisnet\\ECK\\": "src/",
@@ -18,5 +17,13 @@
   "require-dev": {
     "phpunit/phpunit": "^9.4",
     "phpstan/phpstan": "^0.12.52"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test:coverage": "vendor/bin/phpunit --coverage-html .coverage",
+    "analyse": "vendor/bin/phpstan analyse"
+  },
+  "suggest": {
+    "kennisnet/edurepsearch": "Provides a standard interface for browsing and searching in the CatalogService."
   }
 }
