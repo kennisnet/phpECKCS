@@ -54,7 +54,7 @@ final class ArrayToEckRecordMapper
         $eckRecord->setLicenseEndDate(StringToDateMapper::mapStringToDate($recordArray['LicenseEndDate'] ?? null));
         $eckRecord->setLicenseDuration($recordArray['LicenseDuration'] ?? null);
         $eckRecord->setLicenseCount(StringToIntMapper::mapStringToInt($recordArray['LicenseCount'] ?? null));
-        $eckRecord->setAdditionalLicenseOptions(ArrayToAdditionalLicenseOptionsMapper::mapArrayToAdditionalLicenseOptions($recordArray['AdditionalLicenseOptions']));
+        $eckRecord->setAdditionalLicenseOptions(ArrayToAdditionalLicenseOptionsMapper::mapArrayToAdditionalLicenseOptions($recordArray['AdditionalLicenseOptions'] ?? null));
         $eckRecord->setIsCatalogItem(StringToBoolMapper::mapStringToBool($recordArray['IsCatalogItem'] ?? null));
         $eckRecord->setCopyright($recordArray['Copyright'] ?? null);
         return $eckRecord;
