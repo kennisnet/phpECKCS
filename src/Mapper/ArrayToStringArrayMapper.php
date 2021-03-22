@@ -12,9 +12,18 @@ final class ArrayToStringArrayMapper
     {
         $valueArray = array_values($arrayWithValues);
         $propertyValue = array_shift($valueArray);
-        if (is_array($propertyValue)){
-            return $propertyValue;
+        return self::mapValueToStringArray($propertyValue);
+    }
+
+    /**
+     * @param string[]|string|null $value
+     * @return string[]
+     */
+    public static function mapValueToStringArray($value): array
+    {
+        if (is_array($value)) {
+            return $value;
         }
-        return null !== $propertyValue ? [$propertyValue] : [];
+        return null !== $value ? [$value] : [];
     }
 }
