@@ -5,6 +5,7 @@ namespace Kennisnet\ECK\Tests\builder;
 
 use DateTimeImmutable;
 use Kennisnet\ECK\EckRecord;
+use Kennisnet\ECK\Model\Environments;
 use Kennisnet\ECK\Model\Prices;
 
 final class EckRecordBuilder
@@ -40,6 +41,13 @@ final class EckRecordBuilder
     {
         $builder = clone $this;
         $builder->record->setDescription($description);
+        return $builder;
+    }
+
+    public function withEnvironments(?Environments $environments): self
+    {
+        $builder = clone $this;
+        $builder->record->setEnvironments($environments);
         return $builder;
     }
 

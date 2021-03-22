@@ -39,10 +39,8 @@ class Entry
     /** @var string */
     private $description = '';
 
-    /**
-     * TODO: Add Environments
-     * Environments<complex>
-     */
+    /** @var Environments|null */
+    private $environments = null;
 
     /** @var string|null */
     private $contentLocation = null;
@@ -210,6 +208,16 @@ class Entry
     public function getDescription(): string
     {
         return $this->description;
+    }
+
+    public function getEnvironments(): ?Environments
+    {
+        return $this->environments;
+    }
+
+    public function setEnvironments(?Environments $environments): void
+    {
+        $this->environments = $environments;
     }
 
     public function getPublisher(): string

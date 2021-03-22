@@ -8,6 +8,7 @@ use Kennisnet\ECK\Mapper\ArrayToEckRecordMapper;
 use Kennisnet\ECK\EckRecord;
 use Kennisnet\ECK\ResponseSerializer;
 use Kennisnet\ECK\Tests\builder\EckRecordBuilder;
+use Kennisnet\ECK\Tests\builder\EnvironmentsBuilder;
 use Kennisnet\ECK\Tests\builder\PriceBuilder;
 use Kennisnet\ECK\Tests\builder\PricesBuilder;
 use PHPUnit\Framework\TestCase;
@@ -35,6 +36,10 @@ final class ArrayToEckRecordMapperTest extends TestCase
             ->withProductThumbnailLocation('https://www.kinheim.com/wp-content/uploads/2012/05/712-292-Mijn-Boek-deel-2.png')
             ->withAuthors(['kinheim'])
             ->withDescription('Het aanbod van puzzels in Mijn Boek deel 3 omvat: woordzoekers, speurpuzzels, woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.')
+            ->withEnvironments(((new EnvironmentsBuilder())
+                ->withPlatform(['iOS', 'Windows'])
+                ->withDevice(['pc ready']))
+                ->build())
             ->withContentLocation('https://www.kinheim.com/leermiddelen/mijn-boek-3/?attribute_pa_aantal=los-exemplaar')
             ->withIntendedEndUserRole('Onderwijsvolger')
             ->withProductState('Leverbaar')

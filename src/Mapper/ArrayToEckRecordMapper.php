@@ -12,6 +12,7 @@ final class ArrayToEckRecordMapper
         $eckRecord = new EckRecord($recordArray['RecordId'], $recordArray['Title']);
         $eckRecord->setLastModifiedDate(StringToDateMapper::mapStringToDate($recordArray['LastModifiedDate'] ?? null));
         $eckRecord->setDescription($recordArray['Description'] ?? '');
+        $eckRecord->setEnvironments(ArrayToEnvironmentsMapper::mapArrayToEnvironments($recordArray['Environments'] ?? null));
         $eckRecord->setPublisher($recordArray['Publisher'] ?? null);
         $eckRecord->setAuthors(ArrayToStringArrayMapper::mapArrayToStringArray($recordArray['Authors'] ?? []));
         $eckRecord->setInformationLocation($recordArray['InformationLocation'] ?? null);

@@ -27,6 +27,11 @@
                     </Authors>
                     <Description>Het aanbod van puzzels in Mijn Boek deel 3 omvat: woordzoekers, speurpuzzels, woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
                     </Description>
+                    <Environments>
+                        <Platform>iOS</Platform>
+                        <Platform>Windows</Platform>
+                        <Device>pc ready</Device>
+                    </Environments>
                     <ContentLocation>
                         https://www.kinheim.com/leermiddelen/mijn-boek-3/?attribute_pa_aantal=los-exemplaar
                     </ContentLocation>
