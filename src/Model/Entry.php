@@ -139,10 +139,8 @@ class Entry
     /** @var bool */
     private $isLicensed = false;
 
-    /**
-     * @Todo: Add ActivationBefore complex object
-     * ActivationBefore<complex>
-     **/
+    /** @var ActivationBefore|null */
+    private $activationBefore = null;
 
     /** @var string|null */
     private $licenseAvailabilityOptions = null;
@@ -159,10 +157,8 @@ class Entry
     /** @var int */
     private $licenseCount = 0;
 
-    /**
-     * @Todo: Add AdditionalLicenseOptions complex object
-     * AdditionalLicenseOptions<complex>
-     **/
+    /** @var AdditionalLicenseOptions */
+    private $additionalLicenseOptions = null;
 
     /** @var bool */
     private $isCatalogItem = false;
@@ -583,6 +579,16 @@ class Entry
         $this->isLicensed = $isLicensed;
     }
 
+    public function getActivationBefore(): ?ActivationBefore
+    {
+        return $this->activationBefore;
+    }
+
+    public function setActivationBefore(?ActivationBefore $activationBefore): void
+    {
+        $this->activationBefore = $activationBefore;
+    }
+
     public function getLicenseAvailabilityOptions(): ?string
     {
         return $this->licenseAvailabilityOptions;
@@ -631,6 +637,16 @@ class Entry
     public function setLicenseCount(int $licenseCount): void
     {
         $this->licenseCount = $licenseCount;
+    }
+
+    public function getAdditionalLicenseOptions(): ?AdditionalLicenseOptions
+    {
+        return $this->additionalLicenseOptions;
+    }
+
+    public function setAdditionalLicenseOptions(?AdditionalLicenseOptions $additionalLicenseOptions): void
+    {
+        $this->additionalLicenseOptions = $additionalLicenseOptions;
     }
 
     public function isCatalogItem(): bool

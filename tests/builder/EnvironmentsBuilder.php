@@ -40,5 +40,4 @@ final class EnvironmentsBuilder
         $builder->environments->setBrowser($browser);
         return $builder;
     }
-
 }

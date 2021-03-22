@@ -61,6 +61,4 @@ final class ArrayToEnvironmentsMapperTest extends TestCase
             'No environments data returns null.'
         ];
     }
-
-
 }

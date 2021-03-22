@@ -6,7 +6,10 @@ namespace Kennisnet\ECK\Tests\Mapper;
 use DateTimeImmutable;
 use Kennisnet\ECK\Mapper\ArrayToEckRecordMapper;
 use Kennisnet\ECK\EckRecord;
+use Kennisnet\ECK\Model\AdditionalLicenseOptions;
 use Kennisnet\ECK\ResponseSerializer;
+use Kennisnet\ECK\Tests\builder\ActivationBeforeBuilder;
+use Kennisnet\ECK\Tests\builder\AdditionalLicenseOptionsBuilder;
 use Kennisnet\ECK\Tests\builder\EckRecordBuilder;
 use Kennisnet\ECK\Tests\builder\EnvironmentsBuilder;
 use Kennisnet\ECK\Tests\builder\PriceBuilder;
@@ -52,11 +55,23 @@ final class ArrayToEckRecordMapperTest extends TestCase
             ->withLevels(['PO'])
             ->withYears(['jaar 3'])
             ->withSaleUnitSize(1)
-            ->withPrices((new PricesBuilder())->withCurrency('EUR')->withPrice([
-                (new PriceBuilder())->withVat(9)->withAmount(913)->build()
-            ])->build())
+            ->withPrices((new PricesBuilder())
+                ->withCurrency('EUR')
+                ->withPrice([(new PriceBuilder())
+                    ->withVat(9)
+                    ->withAmount(913)
+                    ->build()
+                ])
+                ->build())
             ->withIsLicensed(false)
+            ->withActivationBefore((new ActivationBeforeBuilder())
+                ->withActivationBeforeDays(30)
+                ->withActivationBeforeDate(new DateTimeImmutable('2021-07-16T23:59:59+01:00'))
+                ->build())
             ->withIsCatalogItem(true)
+            ->withAdditionalLicenseOptions((new AdditionalLicenseOptionsBuilder())
+                ->withAdditionalLicenseOption(['Inkijkexemplaar', 'Demo-exemplaar'])
+                ->build())
             ->withCopyright('yes')
             ->withLastModifiedDate(new DateTimeImmutable('2020-01-02T21:14:42+01:00'))
             ->build();

@@ -67,7 +67,15 @@
                     </Prices>
                     <PriceIsIndicative>false</PriceIsIndicative>
                     <IsLicensed>false</IsLicensed>
+                    <ActivationBefore>
+                        <ActivationBeforeDays>30</ActivationBeforeDays>
+                        <ActivationBeforeDate>2021-07-16T23:59:59+01:00</ActivationBeforeDate>
+                    </ActivationBefore>
                     <IsCatalogItem>true</IsCatalogItem>
+                    <AdditionalLicenseOptions>
+                        <AdditionalLicenseOption>Inkijkexemplaar</AdditionalLicenseOption>
+                        <AdditionalLicenseOption>Demo-exemplaar</AdditionalLicenseOption>
+                    </AdditionalLicenseOptions>
                     <Copyright>yes</Copyright>
                     <LastModifiedDate>2020-01-02T21:14:42+01:00</LastModifiedDate>
                 </Entry>
