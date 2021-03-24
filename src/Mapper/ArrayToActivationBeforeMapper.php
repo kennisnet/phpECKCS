@@ -20,5 +20,4 @@ final class ArrayToActivationBeforeMapper
 
         return $activationBefore;
     }
-
 }
