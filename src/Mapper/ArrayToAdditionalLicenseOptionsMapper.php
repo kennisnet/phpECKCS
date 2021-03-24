@@ -14,7 +14,7 @@ final class ArrayToAdditionalLicenseOptionsMapper
         }
 
         $additionalLicenseOptions = new AdditionalLicenseOptions();
-        $additionalLicenseOptions->setAdditionalLicenseOption(ArrayToStringArrayMapper::mapValueToStringArray($additionalLicenseOptionsArray['AdditionalLicenseOption'] ?? null));
+        $additionalLicenseOptions->setAdditionalLicenseOption(ArrayToStringArrayMapper::mapArrayToStringArray($additionalLicenseOptionsArray ?? []));
         return $additionalLicenseOptions;
 
     }
