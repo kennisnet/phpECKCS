@@ -12,6 +12,7 @@ final class ArrayToEckRecordMapper
         $eckRecord = new EckRecord($recordArray['RecordId'], $recordArray['Title']);
         $eckRecord->setLastModifiedDate(StringToDateMapper::mapStringToDate($recordArray['LastModifiedDate'] ?? null));
         $eckRecord->setDescription($recordArray['Description'] ?? '');
+        $eckRecord->setEnvironments(ArrayToEnvironmentsMapper::mapArrayToEnvironments($recordArray['Environments'] ?? null));
         $eckRecord->setPublisher($recordArray['Publisher'] ?? null);
         $eckRecord->setAuthors(ArrayToStringArrayMapper::mapArrayToStringArray($recordArray['Authors'] ?? []));
         $eckRecord->setInformationLocation($recordArray['InformationLocation'] ?? null);
@@ -47,11 +48,13 @@ final class ArrayToEckRecordMapper
         $eckRecord->setPrices(ArrayToPricesMapper::mapArrayToPrices($recordArray['Prices'] ?? []));
         $eckRecord->setPriceIsIndicative(StringToBoolMapper::mapStringToBool($recordArray['PriceIsIndicative'] ?? null));
         $eckRecord->setIsLicensed(StringToBoolMapper::mapStringToBool($recordArray['IsLicensed'] ?? null));
+        $eckRecord->setActivationBefore(ArrayToActivationBeforeMapper::mapArrayToActivationBefore($recordArray['ActivationBefore'] ?? null));
         $eckRecord->setLicenseAvailabilityOptions($recordArray['LicenseAvailabilityOptions'] ?? null);
         $eckRecord->setLicenseStartDate(StringToDateMapper::mapStringToDate($recordArray['LicenseStartDate'] ?? null));
         $eckRecord->setLicenseEndDate(StringToDateMapper::mapStringToDate($recordArray['LicenseEndDate'] ?? null));
         $eckRecord->setLicenseDuration($recordArray['LicenseDuration'] ?? null);
-        $eckRecord->setLicenseCount(StringToIntMapper::mapStringToInt($recordArray['LicenseCount'] ?? null));
+        $eckRecord->setLicenseCount(StringToIntMapper::mapStringToNullableInt($recordArray['LicenseCount'] ?? null));
+        $eckRecord->setAdditionalLicenseOptions(ArrayToStringArrayMapper::mapArrayToStringArray($recordArray['AdditionalLicenseOptions'] ?? []));
         $eckRecord->setIsCatalogItem(StringToBoolMapper::mapStringToBool($recordArray['IsCatalogItem'] ?? null));
         $eckRecord->setCopyright($recordArray['Copyright'] ?? null);
         return $eckRecord;

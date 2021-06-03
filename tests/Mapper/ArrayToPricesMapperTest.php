@@ -25,14 +25,14 @@ final class ArrayToPricesMapperTest extends TestCase
             [
                 'Currency' => 'EUR',
                 'Price' => [
-                    [
-                        'Amount' => '913',
-                        'VAT' => '9',
+                    'Amount' => [
+                        '913',
+                        '1002',
                     ],
-                    [
-                        'Amount' => '1002',
-                        'VAT' => '21',
-                    ]
+                    'VAT' => [
+                        '9',
+                        '21',
+                    ],
                 ]
             ],
             (new PricesBuilder())
