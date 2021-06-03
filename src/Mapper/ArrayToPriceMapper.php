@@ -49,7 +49,7 @@ final class ArrayToPriceMapper
         return $combinedAmountAndPricesArrays;
     }
 
-    private static function isSinglePriceArray(array $pricesArray)
+    private static function isSinglePriceArray(array $pricesArray): bool
     {
         /*
          * The serializer returns some strange results. It casts a 0 to a null for example
