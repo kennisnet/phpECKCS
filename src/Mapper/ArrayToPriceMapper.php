@@ -14,8 +14,16 @@ final class ArrayToPriceMapper
     {
         $keys = array_keys($pricesArray);
         if (in_array(array_shift($keys), ['Amount', 'VAT'], true)) {
-            return [ArrayToPriceMapper::mapArrayToSinglePrice($pricesArray)];
+            $prices = [];
+            if (is_array($pricesArray['Amount'])) {
+                foreach ($pricesArray['Amount'] as $index => $price) {
+                    $prices[] = ArrayToPriceMapper::mapAssociativeArrayToSinglePrice($pricesArray, $index);
+                }
+            }
+
+            return $prices;
         }
+
         return array_map(function (array $singlePriceArray) {
             return ArrayToPriceMapper::mapArrayToSinglePrice($singlePriceArray);
         }, $pricesArray);
@@ -26,6 +34,14 @@ final class ArrayToPriceMapper
         $price = new Price();
         $price->setAmount(StringToIntMapper::mapStringToInt($priceArray['Amount']));
         $price->setVat(StringToFloatMapper::mapStringToFloat($priceArray['VAT']));
+        return $price;
+    }
+
+    private static function mapAssociativeArrayToSinglePrice(array $priceArray, int $index): Price {
+        $price = new Price();
+        $price->setAmount(StringToIntMapper::mapStringToInt($priceArray['Amount'][$index]));
+        $price->setVat(StringToFloatMapper::mapStringToFloat($priceArray['VAT'][$index]));
+
         return $price;
     }
 
