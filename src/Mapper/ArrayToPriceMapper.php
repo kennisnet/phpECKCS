@@ -14,14 +14,15 @@ final class ArrayToPriceMapper
     {
         $keys = array_keys($pricesArray);
         if (in_array(array_shift($keys), ['Amount', 'VAT'], true)) {
-            $prices = [];
             if (is_array($pricesArray['Amount'])) {
+                $prices = [];
                 foreach ($pricesArray['Amount'] as $index => $price) {
                     $prices[] = ArrayToPriceMapper::mapAssociativeArrayToSinglePrice($pricesArray, $index);
                 }
+                return $prices;
+            } else {
+                return [ArrayToPriceMapper::mapArrayToSinglePrice($pricesArray)];
             }
-
-            return $prices;
         }
 
         return array_map(function (array $singlePriceArray) {
