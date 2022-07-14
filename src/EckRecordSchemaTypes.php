@@ -13,4 +13,6 @@ interface EckRecordSchemaTypes
     const ECKCS_2_3   = 'eckcs2.3';
 
     const ECKCS_2_4   = 'eckcs2.4';
+
+    const ECKCS_2_5   = 'eckcs2.5';
 }

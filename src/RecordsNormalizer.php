@@ -18,6 +18,7 @@ class RecordsNormalizer
         switch ($schema) {
             case EckRecordSchemaTypes::ECKCS_2_3:
             case EckRecordSchemaTypes::ECKCS_2_4:
+            case EckRecordSchemaTypes::ECKCS_2_5:
                 return $this->normalizeECKCS($recordData);
             default:
                 throw RecordSchemaNotSupportedException::becauseTheRecordSchemaIsNotSupported($schema);

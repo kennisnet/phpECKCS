@@ -27,6 +27,10 @@ class EckResponseNormalizerTest extends TestCase
         $records = $normalizer->normalize($deserializedRecords, EckRecordSchemaTypes::ECKCS_2_4);
         $this->assertEquals(10, count($records));
         $this->assertInstanceOf(EckRecord::class, array_shift($records));
+
+        $records = $normalizer->normalize($deserializedRecords, EckRecordSchemaTypes::ECKCS_2_5);
+        $this->assertEquals(10, count($records));
+        $this->assertInstanceOf(EckRecord::class, array_shift($records));
     }
 
     public function test_it_throws_not_supported_exception_when_schema_is_not_supported()
