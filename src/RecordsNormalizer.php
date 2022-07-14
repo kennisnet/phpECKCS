@@ -5,11 +5,22 @@ namespace Kennisnet\ECK;
 
 use Kennisnet\ECK\Exception\RecordSchemaNotSupportedException;
 use Kennisnet\ECK\Mapper\ArrayToEckRecordMapper;
-use Kennisnet\ECK\EckRecord;
 
 class RecordsNormalizer
 {
     /**
+     * @param string $schema
+     *
+     * @return bool
+     */
+    public function supportsSchema(string $schema): bool {
+        return $schema === EckRecordSchemaTypes::ECKCS_2_3 || $schema === EckRecordSchemaTypes::ECKCS_2_4;
+    }
+
+    /**
+     * @param array  $recordData
+     * @param string $schema
+     *
      * @return array<string,EckRecord>|array
      * @throws RecordSchemaNotSupportedException
      */
