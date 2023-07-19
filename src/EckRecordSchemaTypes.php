@@ -15,4 +15,8 @@ interface EckRecordSchemaTypes
     const ECKCS_2_4   = 'eckcs2.4';
 
     const ECKCS_2_5   = 'eckcs2.5';
+
+    const ECKCS_2_5_1   = 'eckcs2.5.1';
+
+    const unsupportedVersion = [self::ECKCS_2_1_1, self::ECKCS_2_2];
 }
