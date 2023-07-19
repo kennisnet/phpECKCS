@@ -5,6 +5,9 @@ namespace Kennisnet\ECK\Tests\builder;
 
 use DateTimeImmutable;
 use Kennisnet\ECK\EckRecord;
+use Kennisnet\ECK\Model\ActivationBefore;
+use Kennisnet\ECK\Model\AdditionalLicenseOptions;
+use Kennisnet\ECK\Model\Environments;
 use Kennisnet\ECK\Model\Prices;
 
 final class EckRecordBuilder
@@ -40,6 +43,13 @@ final class EckRecordBuilder
     {
         $builder = clone $this;
         $builder->record->setDescription($description);
+        return $builder;
+    }
+
+    public function withEnvironments(?Environments $environments): self
+    {
+        $builder = clone $this;
+        $builder->record->setEnvironments($environments);
         return $builder;
     }
 
@@ -284,6 +294,13 @@ final class EckRecordBuilder
         return $builder;
     }
 
+    public function withActivationBefore(ActivationBefore $activationBefore): self
+    {
+        $builder = clone $this;
+        $builder->record->setActivationBefore($activationBefore);
+        return $builder;
+    }
+
     public function withLicenseAvailabilityOptions(array $licenseAvailabilityOptions): self
     {
         $builder = clone $this;
@@ -316,6 +333,13 @@ final class EckRecordBuilder
     {
         $builder = clone $this;
         $builder->record->setLicenseCount($licenseCount);
+        return $builder;
+    }
+
+    public function withAdditionalLicenseOptions(AdditionalLicenseOptions  $additionalLicenseOptions): self
+    {
+        $builder = clone $this;
+        $builder->record->setAdditionalLicenseOptions($additionalLicenseOptions);
         return $builder;
     }
 

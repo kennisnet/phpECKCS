@@ -6,8 +6,12 @@ namespace Kennisnet\ECK\Tests\Mapper;
 use DateTimeImmutable;
 use Kennisnet\ECK\Mapper\ArrayToEckRecordMapper;
 use Kennisnet\ECK\EckRecord;
+use Kennisnet\ECK\Model\AdditionalLicenseOptions;
 use Kennisnet\ECK\ResponseSerializer;
+use Kennisnet\ECK\Tests\builder\ActivationBeforeBuilder;
+use Kennisnet\ECK\Tests\builder\AdditionalLicenseOptionsBuilder;
 use Kennisnet\ECK\Tests\builder\EckRecordBuilder;
+use Kennisnet\ECK\Tests\builder\EnvironmentsBuilder;
 use Kennisnet\ECK\Tests\builder\PriceBuilder;
 use Kennisnet\ECK\Tests\builder\PricesBuilder;
 use PHPUnit\Framework\TestCase;
@@ -35,6 +39,10 @@ final class ArrayToEckRecordMapperTest extends TestCase
             ->withProductThumbnailLocation('https://www.kinheim.com/wp-content/uploads/2012/05/712-292-Mijn-Boek-deel-2.png')
             ->withAuthors(['kinheim'])
             ->withDescription('Het aanbod van puzzels in Mijn Boek deel 3 omvat: woordzoekers, speurpuzzels, woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.')
+            ->withEnvironments(((new EnvironmentsBuilder())
+                ->withPlatform(['iOS', 'Windows'])
+                ->withDevice(['pc ready']))
+                ->build())
             ->withContentLocation('https://www.kinheim.com/leermiddelen/mijn-boek-3/?attribute_pa_aantal=los-exemplaar')
             ->withIntendedEndUserRole('Onderwijsvolger')
             ->withProductState('Leverbaar')
@@ -47,11 +55,23 @@ final class ArrayToEckRecordMapperTest extends TestCase
             ->withLevels(['PO'])
             ->withYears(['jaar 3'])
             ->withSaleUnitSize(1)
-            ->withPrices((new PricesBuilder())->withCurrency('EUR')->withPrice([
-                (new PriceBuilder())->withVat(9)->withAmount(913)->build()
-            ])->build())
+            ->withPrices((new PricesBuilder())
+                ->withCurrency('EUR')
+                ->withPrice([(new PriceBuilder())
+                    ->withVat(9)
+                    ->withAmount(913)
+                    ->build()
+                ])
+                ->build())
             ->withIsLicensed(false)
+            ->withActivationBefore((new ActivationBeforeBuilder())
+                ->withActivationBeforeDays(30)
+                ->withActivationBeforeDate(new DateTimeImmutable('2021-07-16T23:59:59+01:00'))
+                ->build())
             ->withIsCatalogItem(true)
+            ->withAdditionalLicenseOptions((new AdditionalLicenseOptionsBuilder())
+                ->withAdditionalLicenseOption(['Inkijkexemplaar', 'Demo-exemplaar'])
+                ->build())
             ->withCopyright('yes')
             ->withLastModifiedDate(new DateTimeImmutable('2020-01-02T21:14:42+01:00'))
             ->build();

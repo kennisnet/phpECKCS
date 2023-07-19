@@ -39,10 +39,8 @@ class Entry
     /** @var string */
     private $description = '';
 
-    /**
-     * TODO: Add Environments
-     * Environments<complex>
-     */
+    /** @var Environments|null */
+    private $environments = null;
 
     /** @var string|null */
     private $contentLocation = null;
@@ -141,10 +139,8 @@ class Entry
     /** @var bool */
     private $isLicensed = false;
 
-    /**
-     * @Todo: Add ActivationBefore complex object
-     * ActivationBefore<complex>
-     **/
+    /** @var ActivationBefore|null */
+    private $activationBefore = null;
 
     /** @var string|null */
     private $licenseAvailabilityOptions = null;
@@ -161,10 +157,8 @@ class Entry
     /** @var int */
     private $licenseCount = 0;
 
-    /**
-     * @Todo: Add AdditionalLicenseOptions complex object
-     * AdditionalLicenseOptions<complex>
-     **/
+    /** @var AdditionalLicenseOptions */
+    private $additionalLicenseOptions = null;
 
     /** @var bool */
     private $isCatalogItem = false;
@@ -210,6 +204,16 @@ class Entry
     public function getDescription(): string
     {
         return $this->description;
+    }
+
+    public function getEnvironments(): ?Environments
+    {
+        return $this->environments;
+    }
+
+    public function setEnvironments(?Environments $environments): void
+    {
+        $this->environments = $environments;
     }
 
     public function getPublisher(): string
@@ -575,6 +579,16 @@ class Entry
         $this->isLicensed = $isLicensed;
     }
 
+    public function getActivationBefore(): ?ActivationBefore
+    {
+        return $this->activationBefore;
+    }
+
+    public function setActivationBefore(?ActivationBefore $activationBefore): void
+    {
+        $this->activationBefore = $activationBefore;
+    }
+
     public function getLicenseAvailabilityOptions(): ?string
     {
         return $this->licenseAvailabilityOptions;
@@ -623,6 +637,16 @@ class Entry
     public function setLicenseCount(int $licenseCount): void
     {
         $this->licenseCount = $licenseCount;
+    }
+
+    public function getAdditionalLicenseOptions(): ?AdditionalLicenseOptions
+    {
+        return $this->additionalLicenseOptions;
+    }
+
+    public function setAdditionalLicenseOptions(?AdditionalLicenseOptions $additionalLicenseOptions): void
+    {
+        $this->additionalLicenseOptions = $additionalLicenseOptions;
     }
 
     public function isCatalogItem(): bool
