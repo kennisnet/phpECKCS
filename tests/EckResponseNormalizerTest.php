@@ -19,6 +19,8 @@ class EckResponseNormalizerTest extends TestCase
         $normalizer = new RecordsNormalizer();
 
         $this->assertTrue($normalizer->supportsSchema(EckRecordSchemaTypes::ECKCS_2_3));
+        $this->assertFalse($normalizer->supportsSchema(EckRecordSchemaTypes::ECKCS_2_1_1));
+
         $this->assertFalse($normalizer->supportsSchema('unsupported'));
 
         $deserializedRecords = $normalizer->deserializeFromSearchResponse($document);
@@ -32,6 +34,10 @@ class EckResponseNormalizerTest extends TestCase
         $this->assertInstanceOf(EckRecord::class, array_shift($records));
 
         $records = $normalizer->normalize($deserializedRecords, EckRecordSchemaTypes::ECKCS_2_5);
+        $this->assertEquals(10, count($records));
+        $this->assertInstanceOf(EckRecord::class, array_shift($records));
+
+        $records = $normalizer->normalize($deserializedRecords, EckRecordSchemaTypes::ECKCS_2_5_1);
         $this->assertEquals(10, count($records));
         $this->assertInstanceOf(EckRecord::class, array_shift($records));
     }

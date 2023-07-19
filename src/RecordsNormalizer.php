@@ -13,12 +13,18 @@ class RecordsNormalizer
      *
      * @return bool
      */
-    public function supportsSchema(string $schema): bool {
-        return $schema === EckRecordSchemaTypes::ECKCS_2_3 || $schema === EckRecordSchemaTypes::ECKCS_2_4;
+    public function supportsSchema(string $schema): bool
+    {
+        $reflect = new \ReflectionClass(EckRecordSchemaTypes::class);
+        if (in_array($schema, EckRecordSchemaTypes::unsupportedVersion)) {
+            return false;
+        }
+
+        return in_array($schema, $reflect->getConstants());
     }
 
     /**
-     * @param array  $recordData
+     * @param array $recordData
      * @param string $schema
      *
      * @return array<string,EckRecord>|array
@@ -30,6 +36,7 @@ class RecordsNormalizer
             case EckRecordSchemaTypes::ECKCS_2_3:
             case EckRecordSchemaTypes::ECKCS_2_4:
             case EckRecordSchemaTypes::ECKCS_2_5:
+            case EckRecordSchemaTypes::ECKCS_2_5_1:
                 return $this->normalizeECKCS($recordData);
             default:
                 throw RecordSchemaNotSupportedException::becauseTheRecordSchemaIsNotSupported($schema);
