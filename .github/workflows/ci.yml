@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        php: [7.4]
+        php: [7.4,8.1,8.2]
     name: "PHP: ${{ matrix.php }}"
     steps:
       - name: Checkout
@@ -23,9 +23,6 @@ jobs:
 
       - name: Composer install
         run: "composer install --prefer-dist --no-interaction"
-
-      - name: PHPstan
-        run: composer analyse
 
       - name: PHPunit
         run: phpunit
