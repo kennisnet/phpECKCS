@@ -27,6 +27,11 @@
                     </Authors>
                     <Description>Het aanbod van puzzels in Mijn Boek deel 3 omvat: woordzoekers, speurpuzzels, woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
                     </Description>
+                    <Environments>
+                        <Platform>iOS</Platform>
+                        <Platform>Windows</Platform>
+                        <Device>pc ready</Device>
+                    </Environments>
                     <ContentLocation>
                         https://www.kinheim.com/leermiddelen/mijn-boek-3/?attribute_pa_aantal=los-exemplaar
                     </ContentLocation>
@@ -62,7 +67,15 @@
                     </Prices>
                     <PriceIsIndicative>false</PriceIsIndicative>
                     <IsLicensed>false</IsLicensed>
+                    <ActivationBefore>
+                        <ActivationBeforeDays>30</ActivationBeforeDays>
+                        <ActivationBeforeDate>2021-07-16T23:59:59+01:00</ActivationBeforeDate>
+                    </ActivationBefore>
                     <IsCatalogItem>true</IsCatalogItem>
+                    <AdditionalLicenseOptions>
+                        <AdditionalLicenseOption>Inkijkexemplaar</AdditionalLicenseOption>
+                        <AdditionalLicenseOption>Demo-exemplaar</AdditionalLicenseOption>
+                    </AdditionalLicenseOptions>
                     <Copyright>yes</Copyright>
                     <LastModifiedDate>2020-01-02T21:14:42+01:00</LastModifiedDate>
                 </Entry>
