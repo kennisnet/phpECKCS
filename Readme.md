@@ -4,7 +4,7 @@ Deze library geeft de mogelijkheid om op via een standaard interface XML documen
 ### Links
 - XSD's behorende bij de ECK standaard: https://xsd.kennisnet.nl/eck/
 - Informatie over de werkgroep ECK Distributie en toegang: https://www.edustandaard.nl/standaard_werkgroepen/werkgroep-educatieve-distributie-en-toegang/
-- Informatie over de geimplementeerde standaard: https://www.edustandaard.nl/standaard_afspraken/eck-distributie-en-toegang/eck-distributie-en-toegang-2-3/
+- Informatie over de geïmplementeerde standaard: https://www.edustandaard.nl/standaard_afspraken/eck-distributie-en-toegang/eck-distributie-en-toegang-2-3/
 
 ### Voorbeeld
 ```php
@@ -19,5 +19,5 @@ $records = $normalizer->normalize($deserializedRecords, Kennisnet\ECK\EckRecordS
 - https://github.com/kennisnet/phpEdurepSearch (geeft een standaard interface voor het zoeken in de CatalogService)
 
 ### Ondersteuning
-- Dit project ondersteund op dit moment alleen de standaard ECKCS 2.3, eerdere standaarden worden niet ondersteund, nieuwere mogelijk via backwards-compatibility.
+- Dit project ondersteund op dit moment alleen de standaard ECKCS 2.5.1 & 2.5.2, eerdere standaarden worden niet ondersteund, nieuwere mogelijk via backwards-compatibility.
 - Heb je vragen over het gebruik of implementatie van de standaard, neem dan contact op met: info@edustandaard.nl
