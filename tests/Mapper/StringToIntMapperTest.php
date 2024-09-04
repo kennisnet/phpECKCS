@@ -26,7 +26,7 @@ final class StringToIntMapperTest extends TestCase
         yield [5, '5', '\'5\' maps to 5'];
     }
 
-    public function mapStringToNullableIntDataProvider(): \Generator
+    public static function mapStringToNullableIntDataProvider(): \Generator
     {
         yield [null, null, 'null maps to null'];
         yield [0, '0', '\'0\' maps to 0'];

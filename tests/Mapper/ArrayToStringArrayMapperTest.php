@@ -14,7 +14,7 @@ final class ArrayToStringArrayMapperTest extends TestCase
         $this->assertEquals($expected, ArrayToStringArrayMapper::mapArrayToStringArray($input), $scenario);
     }
 
-    public function arrayOfStringsDataProvider(): \Generator
+    public static function arrayOfStringsDataProvider(): \Generator
     {
         yield [
             ['test1', 'test2'],

@@ -14,7 +14,7 @@ final class StringToDateMapperTest extends TestCase
         $this->assertEquals($expected, StringToDateMapper::mapStringToDate($input), $description);
     }
 
-    public function stringToDateMapperDataProvider(): \Generator
+    public static function stringToDateMapperDataProvider(): \Generator
     {
         yield [null, null, 'No input returns no date'];
         yield [new \DateTimeImmutable('2020-01-02T21:14:42+01:00'), '2020-01-02T21:14:42+01:00', 'It maps a date string to a date'];

@@ -19,7 +19,7 @@ final class ArrayToPricesMapperTest extends TestCase
         $this->assertEquals($expectedResult, ArrayToPricesMapper::mapArrayToPrices($input), $scenario);
     }
 
-    public function pricesArrayDataProvider(): \Generator
+    public static function pricesArrayDataProvider(): \Generator
     {
         yield [
             [

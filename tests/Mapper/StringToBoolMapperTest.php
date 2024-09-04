@@ -14,7 +14,7 @@ final class StringToBoolMapperTest extends TestCase
         $this->assertEquals($expected, StringToBoolMapper::mapStringToBool($input), $description);
     }
 
-    public function stringToBoolMapperDataProvider(): \Generator
+    public static function stringToBoolMapperDataProvider(): \Generator
     {
         yield [true, 'true', '\'true\' resolves to true'];
         yield [true, 'True', '\'True\' resolves to true'];
