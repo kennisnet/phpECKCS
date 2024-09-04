@@ -11,7 +11,7 @@ final class StringToBoolMapperTest extends TestCase
     /** @dataProvider stringToBoolMapperDataProvider */
     public function test_it_maps_a_string_to_a_bool(bool $expected, ?string $input, string $description)
     {
-        self::assertEquals($expected, StringToBoolMapper::mapStringToBool($input), $description);
+        $this->assertEquals($expected, StringToBoolMapper::mapStringToBool($input), $description);
     }
 
     public function stringToBoolMapperDataProvider(): \Generator

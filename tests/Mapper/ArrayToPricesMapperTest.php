@@ -16,7 +16,7 @@ final class ArrayToPricesMapperTest extends TestCase
      */
     public function test_it_maps_an_array_to_prices(array $input, Prices $expectedResult, string $scenario): void
     {
-        self::assertEquals($expectedResult, ArrayToPricesMapper::mapArrayToPrices($input), $scenario);
+        $this->assertEquals($expectedResult, ArrayToPricesMapper::mapArrayToPrices($input), $scenario);
     }
 
     public function pricesArrayDataProvider(): \Generator

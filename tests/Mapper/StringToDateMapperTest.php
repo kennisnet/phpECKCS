@@ -11,7 +11,7 @@ final class StringToDateMapperTest extends TestCase
     /** @dataProvider stringToDateMapperDataProvider */
     public function test_it_maps_a_string_to_a_date(?\DateTimeImmutable $expected, ?string $input, string $description)
     {
-        self::assertEquals($expected, StringToDateMapper::mapStringToDate($input), $description);
+        $this->assertEquals($expected, StringToDateMapper::mapStringToDate($input), $description);
     }
 
     public function stringToDateMapperDataProvider(): \Generator

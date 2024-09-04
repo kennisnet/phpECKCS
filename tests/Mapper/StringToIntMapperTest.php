@@ -10,13 +10,13 @@ final class StringToIntMapperTest extends TestCase
     /** @dataProvider mapStringToIntDataProvider */
     public function test_it_maps_a_string_to_an_int(int $expected, ?string $input, string $description)
     {
-        self::assertEquals($expected, $input, $description);
+        $this->assertEquals($expected, $input, $description);
     }
 
     /** @dataProvider mapStringToNullableIntDataProvider */
     public function test_it_maps_a_string_to_a_nullable_int(?int $expected, ?string $input, string $description)
     {
-        self::assertEquals($expected, $input, $description);
+        $this->assertEquals($expected, $input, $description);
     }
 
     public function mapStringToIntDataProvider(): \Generator
