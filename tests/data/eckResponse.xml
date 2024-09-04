@@ -4,635 +4,794 @@
                             xmlns:xcql="http://www.loc.gov/zing/cql/xcql/" xmlns:dc="http://purl.org/dc/elements/1.1/"
                             xmlns:meresco_srw="http://meresco.org/namespace/srw#">
     <srw:version>1.2</srw:version>
-    <srw:numberOfRecords>18</srw:numberOfRecords>
+    <srw:numberOfRecords>20830</srw:numberOfRecords>
     <srw:records>
         <srw:record>
-            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
-            <srw:recordIdentifier>kinheim:07168b06-92e2-5569-aca3-75f13349f8e0</srw:recordIdentifier>
+            <srw:recordIdentifier>toegangorg:0c1b8824-6989-5034-b116-7ae1bc0922bd</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
-                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
-                    <ProductId>9789060523094</ProductId>
-                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.5.2"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.5">
+                    <ProductId>9789006439816</ProductId>
+                    <Publisher>Thiememeulenhoff</Publisher>
                     <PublisherThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                        https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg
                     </PublisherThumbnailLocation>
                     <ProductThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/2012/05/712-292-Mijn-Boek-deel-2.png
+                        https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.85dc07d2-e6ca-4a7c-bbbc-1b98dabf4fa4/tmthumb.png
                     </ProductThumbnailLocation>
-                    <Title>Mijn Boek 3</Title>
+                    <ProductFamilyName>Code+</ProductFamilyName>
+                    <Title>Code+ Takenboek deel 1 inclusief 1/2 jaar licentie</Title>
                     <Authors>
-                        <Author>kinheim</Author>
+                        <Author>ThiemeMeulenhoff</Author>
                     </Authors>
-                    <Description>Het aanbod van puzzels in Mijn Boek deel 3 omvat: woordzoekers, speurpuzzels, woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
-                    </Description>
-                    <ContentLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-3/?attribute_pa_aantal=los-exemplaar
-                    </ContentLocation>
-                    <ProductState>Leverbaar</ProductState>
-                    <InformationLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-3/?attribute_pa_aantal=los-exemplaar
-                    </InformationLocation>
+                    <Description>Code+ Takenboek deel 1 inclusief 1/2 jaar licentie</Description>
+                    <Environments/>
+                    <AccessLocation>https://toegang.org/9789006439816</AccessLocation>
+                    <AggregationLevel>Course</AggregationLevel>
+                    <IsSeparatelyAvailable>false</IsSeparatelyAvailable>
+                    <FirstPublishedDate>2020-09-01T00:00:00.000Z</FirstPublishedDate>
+                    <EndOfLifeDate>2022-09-27T00:00:00.000Z</EndOfLifeDate>
+                    <Version>2</Version>
+                    <ProductState>Niet meer leverbaar</ProductState>
                     <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
                     <Medium>Boek</Medium>
                     <IsConsumptionProduct>true</IsConsumptionProduct>
-                    <ProductUsages>
-                        <ProductUsage>Oefenmateriaal</ProductUsage>
-                    </ProductUsages>
-                    <Sectors>
-                        <Sector>PO</Sector>
-                    </Sectors>
-                    <Courses>
-                        <Course>Extra</Course>
-                    </Courses>
-                    <Levels>
-                        <Level>PO</Level>
-                    </Levels>
-                    <Years>
-                        <Year>jaar 3</Year>
-                    </Years>
+                    <DEPSectors>
+                        <DEPSector>MBO</DEPSector>
+                    </DEPSectors>
+                    <DEPCourses>
+                        <DEPCourse>nvt</DEPCourse>
+                    </DEPCourses>
+                    <DEPLevels>
+                        <DEPLevel>nvt</DEPLevel>
+                    </DEPLevels>
+                    <DEPSubjects>
+                        <DEPSubject>MBO L.O. VOLW. ANDERST.</DEPSubject>
+                    </DEPSubjects>
+                    <CurriculumInfo>
+                        <Sector>MBO</Sector>
+                        <Courses>
+                            <Course>nvt</Course>
+                        </Courses>
+                        <Levels>
+                            <Level>nvt</Level>
+                        </Levels>
+                        <Subjects>
+                            <Subject>MBO L.O. VOLW. ANDERST.</Subject>
+                        </Subjects>
+                    </CurriculumInfo>
                     <SaleUnitSize>1</SaleUnitSize>
                     <Prices>
                         <Currency>EUR</Currency>
+                        <Consumerprice>0</Consumerprice>
                         <Price>
-                            <Amount>913</Amount>
-                            <VAT>9</VAT>
+                            <Amount>0</Amount>
+                            <VAT>0.0</VAT>
                         </Price>
                     </Prices>
-                    <PriceIsIndicative>false</PriceIsIndicative>
-                    <IsLicensed>false</IsLicensed>
-                    <IsCatalogItem>true</IsCatalogItem>
-                    <Copyright>yes</Copyright>
-                    <LastModifiedDate>2020-01-02T21:14:42+01:00</LastModifiedDate>
+                    <PriceIsIndicative>true</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <IsCatalogItem>false</IsCatalogItem>
+                    <LastModifiedDate>2022-09-27T00:00:00.000Z</LastModifiedDate>
                 </Entry>
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
-            <srw:recordIdentifier>kinheim:143d27d4-14ba-5424-9979-75c4fc6feaad</srw:recordIdentifier>
+            <srw:recordIdentifier>toegangorg:0c2a2c55-1928-5e64-a5bc-399d42c96a05</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
-                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
-                    <ProductId>9789060523100</ProductId>
-                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.5.2"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.5">
+                    <ProductId>9789006987904</ProductId>
+                    <Publisher>Thiememeulenhoff</Publisher>
                     <PublisherThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                        https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg
                     </PublisherThumbnailLocation>
                     <ProductThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/2012/05/713-293-Mijn-Boek-deel-4.png
+                        https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.e4a0f4a3-52dc-4494-8bb4-008f5a6de199/tmthumb.png
                     </ProductThumbnailLocation>
-                    <Title>Mijn Boek 4</Title>
+                    <ProductFamilyName>Newton LRN-line</ProductFamilyName>
+                    <Title>Newton LRN-line Keuzekatern havo 1 Optica</Title>
                     <Authors>
-                        <Author>kinheim</Author>
+                        <Author>ThiemeMeulenhoff</Author>
                     </Authors>
-                    <Description>Het aanbod van puzzels in Mijn Boek deel 4 omvat: woordzoekers, speurpuzzels,
-                        woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
-                    </Description>
-                    <ContentLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-4/?attribute_pa_aantal=los-exemplaar
-                    </ContentLocation>
+                    <Description>Newton LRN-line Keuzekatern havo 1 Optica</Description>
+                    <Environments/>
+                    <InformationLocation>https://www.thiememeulenhoff.nl</InformationLocation>
+                    <AccessLocation>https://toegang.org/9789006987904</AccessLocation>
+                    <AggregationLevel>Course</AggregationLevel>
+                    <IsSeparatelyAvailable>false</IsSeparatelyAvailable>
+                    <FirstPublishedDate>2021-05-01T00:00:00.000Z</FirstPublishedDate>
+                    <EndOfLifeDate>2051-11-11T00:00:00.000Z</EndOfLifeDate>
+                    <Version>1</Version>
                     <ProductState>Leverbaar</ProductState>
-                    <InformationLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-4/?attribute_pa_aantal=los-exemplaar
-                    </InformationLocation>
                     <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
                     <Medium>Boek</Medium>
                     <IsConsumptionProduct>true</IsConsumptionProduct>
-                    <ProductUsages>
-                        <ProductUsage>Oefenmateriaal</ProductUsage>
-                    </ProductUsages>
-                    <Sectors>
-                        <Sector>PO</Sector>
-                    </Sectors>
-                    <Courses>
-                        <Course>Extra</Course>
-                    </Courses>
-                    <Levels>
-                        <Level>PO</Level>
-                    </Levels>
-                    <Years>
-                        <Year>jaar 4</Year>
-                    </Years>
+                    <DEPSectors>
+                        <DEPSector>VO</DEPSector>
+                    </DEPSectors>
+                    <DEPCourses>
+                        <DEPCourse>NATUURKUNDE</DEPCourse>
+                    </DEPCourses>
+                    <DEPLevels>
+                        <DEPLevel>HAVO</DEPLevel>
+                    </DEPLevels>
+                    <DEPYears>
+                        <DEPYear>jaar 4</DEPYear>
+                        <DEPYear>jaar 5</DEPYear>
+                    </DEPYears>
+                    <DEPSubjects>
+                        <DEPSubject>NATUURKUNDE</DEPSubject>
+                    </DEPSubjects>
+                    <CurriculumInfo>
+                        <Sector>VO</Sector>
+                        <Courses>
+                            <Course>NATUURKUNDE</Course>
+                        </Courses>
+                        <Levels>
+                            <Level>HAVO</Level>
+                        </Levels>
+                        <Years>
+                            <Year>jaar 4</Year>
+                            <Year>jaar 5</Year>
+                        </Years>
+                        <Subjects>
+                            <Subject>NATUURKUNDE</Subject>
+                        </Subjects>
+                    </CurriculumInfo>
                     <SaleUnitSize>1</SaleUnitSize>
                     <Prices>
                         <Currency>EUR</Currency>
+                        <Consumerprice>0</Consumerprice>
                         <Price>
-                            <Amount>913</Amount>
-                            <VAT>9</VAT>
+                            <Amount>0</Amount>
+                            <VAT>0.0</VAT>
                         </Price>
                     </Prices>
-                    <PriceIsIndicative>false</PriceIsIndicative>
-                    <IsLicensed>false</IsLicensed>
-                    <IsCatalogItem>true</IsCatalogItem>
-                    <Copyright>yes</Copyright>
-                    <LastModifiedDate>2020-01-15T13:27:33+01:00</LastModifiedDate>
+                    <PriceIsIndicative>true</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <IsCatalogItem>false</IsCatalogItem>
+                    <LastModifiedDate>2024-04-08T00:00:00.000Z</LastModifiedDate>
                 </Entry>
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
-            <srw:recordIdentifier>kinheim:25015962-d178-5b1f-ad83-f03547da9f3a</srw:recordIdentifier>
+            <srw:recordIdentifier>toegangorg:0c3f6dcf-84b5-5341-8e37-d634320a765b</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
-                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
-                    <ProductId>9789060523070</ProductId>
-                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.5.2"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.5">
+                    <ProductId>9789006484908</ProductId>
+                    <Publisher>Thiememeulenhoff</Publisher>
                     <PublisherThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                        https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg
                     </PublisherThumbnailLocation>
                     <ProductThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/2012/05/710-289-Mijn-Boek-deel-1.png
+                        https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.85dc07d2-e6ca-4a7c-bbbc-1b98dabf4fa4/tmthumb.png
                     </ProductThumbnailLocation>
-                    <Title>Mijn Boek 1</Title>
+                    <ProductFamilyName>Perspectief 3e druk</ProductFamilyName>
+                    <Title>Perspectief 3 havo/vwo Leer-opdrachtenboek</Title>
                     <Authors>
-                        <Author>kinheim</Author>
+                        <Author>Brokerhof, D.</Author>
                     </Authors>
-                    <Description>Het aanbod van puzzels in Mijn Boek deel 1 omvat: woordzoekers, speurpuzzels,
-                        woordpuzzels en legletters.
-                    </Description>
-                    <ContentLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-1/?attribute_pa_aantal=los-exemplaar
-                    </ContentLocation>
+                    <Description>Perspectief 3 havo/vwo Leer-opdrachtenboek</Description>
+                    <Environments/>
+                    <AccessLocation>https://toegang.org/9789006484908</AccessLocation>
+                    <AggregationLevel>Course</AggregationLevel>
+                    <IsSeparatelyAvailable>false</IsSeparatelyAvailable>
+                    <FirstPublishedDate>2014-08-01T00:00:00.000Z</FirstPublishedDate>
+                    <EndOfLifeDate>2051-11-11T00:00:00.000Z</EndOfLifeDate>
+                    <Version>3</Version>
                     <ProductState>Leverbaar</ProductState>
-                    <InformationLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-1/?attribute_pa_aantal=los-exemplaar
-                    </InformationLocation>
                     <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
                     <Medium>Boek</Medium>
                     <IsConsumptionProduct>true</IsConsumptionProduct>
-                    <ProductUsages>
-                        <ProductUsage>Oefenmateriaal</ProductUsage>
-                    </ProductUsages>
-                    <Sectors>
-                        <Sector>PO</Sector>
-                    </Sectors>
-                    <Courses>
-                        <Course>Extra</Course>
-                    </Courses>
-                    <Levels>
-                        <Level>PO</Level>
-                    </Levels>
-                    <Years>
-                        <Year>jaar 1</Year>
-                        <Year>jaar 2</Year>
-                    </Years>
+                    <DEPSectors>
+                        <DEPSector>VO</DEPSector>
+                    </DEPSectors>
+                    <DEPCourses>
+                        <DEPCourse>GODSDIENST/LEVENSBESCHOUWING</DEPCourse>
+                    </DEPCourses>
+                    <DEPLevels>
+                        <DEPLevel>VWO</DEPLevel>
+                        <DEPLevel>HAVO</DEPLevel>
+                    </DEPLevels>
+                    <DEPYears>
+                        <DEPYear>jaar 3</DEPYear>
+                    </DEPYears>
+                    <DEPSubjects>
+                        <DEPSubject>LEVENSBESCHOUWING</DEPSubject>
+                    </DEPSubjects>
+                    <CurriculumInfo>
+                        <Sector>VO</Sector>
+                        <Courses>
+                            <Course>GODSDIENST/LEVENSBESCHOUWING</Course>
+                        </Courses>
+                        <Levels>
+                            <Level>VWO</Level>
+                            <Level>HAVO</Level>
+                        </Levels>
+                        <Years>
+                            <Year>jaar 3</Year>
+                        </Years>
+                        <Subjects>
+                            <Subject>LEVENSBESCHOUWING</Subject>
+                        </Subjects>
+                    </CurriculumInfo>
                     <SaleUnitSize>1</SaleUnitSize>
                     <Prices>
                         <Currency>EUR</Currency>
+                        <Consumerprice>3050</Consumerprice>
                         <Price>
-                            <Amount>913</Amount>
-                            <VAT>9</VAT>
+                            <Amount>2798</Amount>
+                            <VAT>9.0</VAT>
                         </Price>
                     </Prices>
-                    <PriceIsIndicative>false</PriceIsIndicative>
-                    <IsLicensed>false</IsLicensed>
-                    <IsCatalogItem>true</IsCatalogItem>
-                    <Copyright>yes</Copyright>
-                    <LastModifiedDate>2020-02-12T09:06:37+01:00</LastModifiedDate>
+                    <PriceIsIndicative>true</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <IsCatalogItem>false</IsCatalogItem>
+                    <LastModifiedDate>2024-01-02T00:00:00.000Z</LastModifiedDate>
                 </Entry>
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
-            <srw:recordIdentifier>kinheim:4297665a-26bc-55f7-94a5-32417776f48a</srw:recordIdentifier>
+            <srw:recordIdentifier>toegangorg:0c5f73d4-84f8-53bd-8de4-c94fb0095597</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
-                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
-                    <ProductId>9789060522738</ProductId>
-                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.5.2"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.5">
+                    <ProductId>9789006616286</ProductId>
+                    <Publisher>Thiememeulenhoff</Publisher>
                     <PublisherThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                        https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg
                     </PublisherThumbnailLocation>
                     <ProductThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/2012/02/628-273-Werkgids-Mijn-eigen-Wereld.png
+                        https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.85dc07d2-e6ca-4a7c-bbbc-1b98dabf4fa4/tmthumb.png
                     </ProductThumbnailLocation>
-                    <Title>Werkgids Mijn eigen Wereld</Title>
+                    <ProductFamilyName>Taalverhaal.nu</ProductFamilyName>
+                    <Title>Taalverhaal.nu Taal Maatschrift B Groep 7 (5 ex)</Title>
                     <Authors>
-                        <Author>kinheim</Author>
+                        <Author>ThiemeMeulenhoff</Author>
                     </Authors>
-                    <Description>Werkgids Mijn Eigen Wereld is een ontdekkingsreis door de eigen omgeving.</Description>
-                    <ContentLocation>
-                        https://www.kinheim.com/leermiddelen/werkgids-mijn-eigen-wereld/?attribute_pa_aantal=los-exemplaar
-                    </ContentLocation>
-                    <ProductState>Leverbaar</ProductState>
-                    <InformationLocation>
-                        https://www.kinheim.com/leermiddelen/werkgids-mijn-eigen-wereld/?attribute_pa_aantal=los-exemplaar
-                    </InformationLocation>
+                    <Description>Taalverhaal.nu Taal Maatschrift B Groep 7 (5 ex)</Description>
+                    <Environments/>
+                    <AccessLocation>https://toegang.org/9789006616286</AccessLocation>
+                    <AggregationLevel>Course</AggregationLevel>
+                    <IsSeparatelyAvailable>false</IsSeparatelyAvailable>
+                    <FirstPublishedDate>2014-09-12T00:00:00.000Z</FirstPublishedDate>
+                    <EndOfLifeDate>2051-11-11T00:00:00.000Z</EndOfLifeDate>
+                    <Version>1</Version>
+                    <ProductState>Niet meer leverbaar</ProductState>
                     <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
                     <Medium>Boek</Medium>
                     <IsConsumptionProduct>true</IsConsumptionProduct>
-                    <ProductUsages>
-                        <ProductUsage>Oefenmateriaal</ProductUsage>
-                    </ProductUsages>
-                    <Sectors>
+                    <DEPSectors>
+                        <DEPSector>PO</DEPSector>
+                    </DEPSectors>
+                    <DEPCourses>
+                        <DEPCourse>TAAL</DEPCourse>
+                    </DEPCourses>
+                    <DEPLevels>
+                        <DEPLevel>SPECIAAL BASISONDERWIJS</DEPLevel>
+                        <DEPLevel>BASISONDERWIJS</DEPLevel>
+                    </DEPLevels>
+                    <DEPYears>
+                        <DEPYear>jaar 7</DEPYear>
+                    </DEPYears>
+                    <DEPSubjects>
+                        <DEPSubject>TAAL &amp; SPELLING</DEPSubject>
+                    </DEPSubjects>
+                    <CurriculumInfo>
                         <Sector>PO</Sector>
-                    </Sectors>
-                    <Courses>
-                        <Course>Aardrijkskunde</Course>
-                    </Courses>
-                    <Levels>
-                        <Level>PO</Level>
-                    </Levels>
-                    <Years>
-                        <Year>jaar 4</Year>
-                        <Year>jaar 5</Year>
-                    </Years>
+                        <Courses>
+                            <Course>TAAL</Course>
+                        </Courses>
+                        <Levels>
+                            <Level>SPECIAAL BASISONDERWIJS</Level>
+                            <Level>BASISONDERWIJS</Level>
+                        </Levels>
+                        <Years>
+                            <Year>jaar 7</Year>
+                        </Years>
+                        <Subjects>
+                            <Subject>TAAL &amp; SPELLING</Subject>
+                        </Subjects>
+                    </CurriculumInfo>
                     <SaleUnitSize>1</SaleUnitSize>
                     <Prices>
                         <Currency>EUR</Currency>
+                        <Consumerprice>0</Consumerprice>
                         <Price>
-                            <Amount>913</Amount>
-                            <VAT>9</VAT>
+                            <Amount>0</Amount>
+                            <VAT>0.0</VAT>
                         </Price>
                     </Prices>
-                    <PriceIsIndicative>false</PriceIsIndicative>
-                    <IsLicensed>false</IsLicensed>
-                    <IsCatalogItem>true</IsCatalogItem>
-                    <Copyright>yes</Copyright>
-                    <LastModifiedDate>2020-01-15T13:32:07+01:00</LastModifiedDate>
+                    <PriceIsIndicative>true</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <IsCatalogItem>false</IsCatalogItem>
+                    <LastModifiedDate>2024-01-11T00:00:00.000Z</LastModifiedDate>
                 </Entry>
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
-            <srw:recordIdentifier>kinheim:5d364693-b5f4-5534-b914-e38ce7a527bc</srw:recordIdentifier>
+            <srw:recordIdentifier>toegangorg:0c77aa86-a97b-55b0-8663-6fe5732b273e</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
-                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
-                    <ProductId>9789060523124</ProductId>
-                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.5.2"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.5">
+                    <ProductId>9789006910230</ProductId>
+                    <Publisher>Thiememeulenhoff</Publisher>
                     <PublisherThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                        https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg
                     </PublisherThumbnailLocation>
                     <ProductThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/2012/05/715-297-Mijn-Boek-deel-6.png
+                        https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.85dc07d2-e6ca-4a7c-bbbc-1b98dabf4fa4/tmthumb.png
                     </ProductThumbnailLocation>
-                    <Title>Mijn Boek 6</Title>
+                    <ProductFamilyName>Traject V&amp;V basisdelen niveau 3</ProductFamilyName>
+                    <Title>Traject V&amp;V Theorieboek Voorlichting, advies en instructie niveau 3</Title>
                     <Authors>
-                        <Author>kinheim</Author>
+                        <Author>Geleuken, M.J.L. van</Author>
                     </Authors>
-                    <Description>Het aanbod van puzzels in Mijn Boek deel 6 omvat: woordzoekers, speurpuzzels,
-                        woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
-                    </Description>
-                    <ContentLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-6/?attribute_pa_aantal=los-exemplaar
-                    </ContentLocation>
+                    <Description>Traject V&amp;V Theorieboek Voorlichting, advies en instructie niveau 3</Description>
+                    <Environments/>
+                    <AccessLocation>https://toegang.org/9789006910230</AccessLocation>
+                    <AggregationLevel>Course</AggregationLevel>
+                    <IsSeparatelyAvailable>false</IsSeparatelyAvailable>
+                    <FirstPublishedDate>2015-11-01T00:00:00.000Z</FirstPublishedDate>
+                    <EndOfLifeDate>2051-11-11T00:00:00.000Z</EndOfLifeDate>
+                    <Version>2</Version>
                     <ProductState>Leverbaar</ProductState>
-                    <InformationLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-6/?attribute_pa_aantal=los-exemplaar
-                    </InformationLocation>
                     <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
                     <Medium>Boek</Medium>
                     <IsConsumptionProduct>true</IsConsumptionProduct>
-                    <ProductUsages>
-                        <ProductUsage>Oefenmateriaal</ProductUsage>
-                    </ProductUsages>
-                    <Sectors>
-                        <Sector>PO</Sector>
-                    </Sectors>
-                    <Courses>
-                        <Course>Extra</Course>
-                    </Courses>
-                    <Levels>
-                        <Level>PO</Level>
-                    </Levels>
-                    <Years>
-                        <Year>jaar 6</Year>
-                    </Years>
+                    <DEPSectors>
+                        <DEPSector>MBO</DEPSector>
+                    </DEPSectors>
+                    <DEPCourses>
+                        <DEPCourse>VERPLEGING EN VERZORGING</DEPCourse>
+                    </DEPCourses>
+                    <DEPLevels>
+                        <DEPLevel>VERPLEGING EN VERZORGING</DEPLevel>
+                    </DEPLevels>
+                    <DEPYears>
+                        <DEPYear>jaar 1</DEPYear>
+                        <DEPYear>jaar 2</DEPYear>
+                    </DEPYears>
+                    <DEPSubjects>
+                        <DEPSubject>MBO ZORG</DEPSubject>
+                    </DEPSubjects>
+                    <CurriculumInfo>
+                        <Sector>MBO</Sector>
+                        <Courses>
+                            <Course>VERPLEGING EN VERZORGING</Course>
+                        </Courses>
+                        <Levels>
+                            <Level>VERPLEGING EN VERZORGING</Level>
+                        </Levels>
+                        <Years>
+                            <Year>jaar 1</Year>
+                            <Year>jaar 2</Year>
+                        </Years>
+                        <Subjects>
+                            <Subject>MBO ZORG</Subject>
+                        </Subjects>
+                    </CurriculumInfo>
                     <SaleUnitSize>1</SaleUnitSize>
                     <Prices>
                         <Currency>EUR</Currency>
+                        <Consumerprice>7950</Consumerprice>
                         <Price>
-                            <Amount>913</Amount>
-                            <VAT>9</VAT>
+                            <Amount>7293</Amount>
+                            <VAT>9.0</VAT>
                         </Price>
                     </Prices>
-                    <PriceIsIndicative>false</PriceIsIndicative>
-                    <IsLicensed>false</IsLicensed>
-                    <IsCatalogItem>true</IsCatalogItem>
-                    <Copyright>yes</Copyright>
-                    <LastModifiedDate>2020-02-12T09:06:43+01:00</LastModifiedDate>
+                    <PriceIsIndicative>true</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <IsCatalogItem>false</IsCatalogItem>
+                    <LastModifiedDate>2024-01-02T00:00:00.000Z</LastModifiedDate>
                 </Entry>
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
-            <srw:recordIdentifier>kinheim:5e51316c-4438-5ac7-bae2-c9022b700466</srw:recordIdentifier>
+            <srw:recordIdentifier>toegangorg:0c7c96ad-e842-57de-bf24-9e2c91b2b563</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
-                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
-                    <ProductId>9789060523117</ProductId>
-                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.5.2"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.5">
+                    <ProductId>9789006910452</ProductId>
+                    <Publisher>Thiememeulenhoff</Publisher>
                     <PublisherThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                        https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg
                     </PublisherThumbnailLocation>
                     <ProductThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/2012/05/714-295-Mijn-Boek-deel-5.png
+                        https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.901b01c3-7f39-4702-995e-a5b92d20ea13/tmthumb.png
                     </ProductThumbnailLocation>
-                    <Title>Mijn Boek 5</Title>
+                    <ProductFamilyName>Traject V&amp;V profieldelen niveau 4</ProductFamilyName>
+                    <Title>Traject V&amp;V Gehandicaptenzorg niveau 4</Title>
                     <Authors>
-                        <Author>kinheim</Author>
+                        <Author>Vogel-Sackers, S.M.T.</Author>
+                        <Author>Verhoef, A.C.</Author>
+                        <Author>Schrijver, R.F.A.</Author>
                     </Authors>
-                    <Description>Het aanbod van puzzels in Mijn Boek deel 5 omvat: woordzoekers, speurpuzzels,
-                        woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
-                    </Description>
-                    <ContentLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-5/?attribute_pa_aantal=los-exemplaar
-                    </ContentLocation>
-                    <ProductState>Leverbaar</ProductState>
-                    <InformationLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-5/?attribute_pa_aantal=los-exemplaar
-                    </InformationLocation>
+                    <Description>Traject V&amp;V Gehandicaptenzorg niveau 4</Description>
+                    <Environments/>
+                    <AccessLocation>https://toegang.org/9789006910452</AccessLocation>
+                    <AggregationLevel>Course</AggregationLevel>
+                    <IsSeparatelyAvailable>false</IsSeparatelyAvailable>
+                    <FirstPublishedDate>2017-07-01T00:00:00.000Z</FirstPublishedDate>
+                    <EndOfLifeDate>2051-11-11T00:00:00.000Z</EndOfLifeDate>
+                    <Version>2</Version>
+                    <ProductState>Niet meer leverbaar</ProductState>
                     <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
                     <Medium>Boek</Medium>
                     <IsConsumptionProduct>true</IsConsumptionProduct>
-                    <ProductUsages>
-                        <ProductUsage>Oefenmateriaal</ProductUsage>
-                    </ProductUsages>
-                    <Sectors>
-                        <Sector>PO</Sector>
-                    </Sectors>
-                    <Courses>
-                        <Course>Extra</Course>
-                    </Courses>
-                    <Levels>
-                        <Level>PO</Level>
-                    </Levels>
-                    <Years>
-                        <Year>jaar 5</Year>
-                    </Years>
+                    <DEPSectors>
+                        <DEPSector>MBO</DEPSector>
+                    </DEPSectors>
+                    <DEPCourses>
+                        <DEPCourse>VERPLEGING EN VERZORGING</DEPCourse>
+                    </DEPCourses>
+                    <DEPLevels>
+                        <DEPLevel>VERPLEGING EN VERZORGING</DEPLevel>
+                    </DEPLevels>
+                    <DEPYears>
+                        <DEPYear>jaar 3</DEPYear>
+                        <DEPYear>jaar 4</DEPYear>
+                    </DEPYears>
+                    <DEPSubjects>
+                        <DEPSubject>MBO ZORG</DEPSubject>
+                    </DEPSubjects>
+                    <CurriculumInfo>
+                        <Sector>MBO</Sector>
+                        <Courses>
+                            <Course>VERPLEGING EN VERZORGING</Course>
+                        </Courses>
+                        <Levels>
+                            <Level>VERPLEGING EN VERZORGING</Level>
+                        </Levels>
+                        <Years>
+                            <Year>jaar 3</Year>
+                            <Year>jaar 4</Year>
+                        </Years>
+                        <Subjects>
+                            <Subject>MBO ZORG</Subject>
+                        </Subjects>
+                    </CurriculumInfo>
                     <SaleUnitSize>1</SaleUnitSize>
                     <Prices>
                         <Currency>EUR</Currency>
+                        <Consumerprice>0</Consumerprice>
                         <Price>
-                            <Amount>913</Amount>
-                            <VAT>9</VAT>
+                            <Amount>0</Amount>
+                            <VAT>0.0</VAT>
                         </Price>
                     </Prices>
-                    <PriceIsIndicative>false</PriceIsIndicative>
-                    <IsLicensed>false</IsLicensed>
-                    <IsCatalogItem>true</IsCatalogItem>
-                    <Copyright>yes</Copyright>
-                    <LastModifiedDate>2020-01-02T21:14:45+01:00</LastModifiedDate>
+                    <PriceIsIndicative>true</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <IsCatalogItem>false</IsCatalogItem>
+                    <LastModifiedDate>2023-12-22T00:00:00.000Z</LastModifiedDate>
                 </Entry>
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
-            <srw:recordIdentifier>kinheim:80e61bab-2cae-54b1-a9be-acb6ec053e3a</srw:recordIdentifier>
+            <srw:recordIdentifier>toegangorg:0ca66b4b-cfde-510e-8305-0b24a4524542</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
-                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
-                    <ProductId>urn:kinheim:9789060523070</ProductId>
-                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.5.2"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.5">
+                    <ProductId>9789055742905</ProductId>
+                    <Publisher>Thiememeulenhoff</Publisher>
                     <PublisherThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                        https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg
                     </PublisherThumbnailLocation>
                     <ProductThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/2012/05/710-289-Mijn-Boek-deel-1.png
+                        https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.85dc07d2-e6ca-4a7c-bbbc-1b98dabf4fa4/tmthumb.png
                     </ProductThumbnailLocation>
-                    <Title>Mijn Boek 1 - Set van 5</Title>
+                    <ProductFamilyName>Medische atlassen</ProductFamilyName>
+                    <Title>Atlas van de acupunctuur</Title>
                     <Authors>
-                        <Author>kinheim</Author>
+                        <Author>Hempen, C.H.</Author>
                     </Authors>
-                    <Description>Het aanbod van puzzels in Mijn Boek deel 1 omvat: woordzoekers, speurpuzzels,
-                        woordpuzzels en legletters.
-                    </Description>
-                    <ContentLocation>https://www.kinheim.com/leermiddelen/mijn-boek-1/?attribute_pa_aantal=set-van-5
-                    </ContentLocation>
+                    <Description>Atlas van de acupunctuur</Description>
+                    <Environments/>
+                    <AccessLocation>https://toegang.org/9789055742905</AccessLocation>
+                    <AggregationLevel>Course</AggregationLevel>
+                    <IsSeparatelyAvailable>false</IsSeparatelyAvailable>
+                    <FirstPublishedDate>2004-03-01T00:00:00.000Z</FirstPublishedDate>
+                    <EndOfLifeDate>2051-11-11T00:00:00.000Z</EndOfLifeDate>
+                    <Version>2</Version>
                     <ProductState>Leverbaar</ProductState>
-                    <InformationLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-1/?attribute_pa_aantal=set-van-5
-                    </InformationLocation>
                     <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
                     <Medium>Boek</Medium>
                     <IsConsumptionProduct>true</IsConsumptionProduct>
-                    <ProductUsages>
-                        <ProductUsage>Oefenmateriaal</ProductUsage>
-                    </ProductUsages>
-                    <Sectors>
-                        <Sector>PO</Sector>
-                    </Sectors>
-                    <Courses>
-                        <Course>Extra</Course>
-                    </Courses>
-                    <Levels>
-                        <Level>PO</Level>
-                    </Levels>
-                    <Years>
-                        <Year>jaar 1</Year>
-                        <Year>jaar 2</Year>
-                    </Years>
-                    <SaleUnitSize>5</SaleUnitSize>
-                    <Prices>
-                        <Currency>EUR</Currency>
-                        <Price>
-                            <Amount>3206</Amount>
-                            <VAT>9</VAT>
-                        </Price>
-                    </Prices>
-                    <PriceIsIndicative>false</PriceIsIndicative>
-                    <IsLicensed>false</IsLicensed>
-                    <IsCatalogItem>true</IsCatalogItem>
-                    <Copyright>yes</Copyright>
-                    <LastModifiedDate>2020-02-12T09:06:37+01:00</LastModifiedDate>
-                </Entry>
-            </srw:recordData>
-        </srw:record>
-        <srw:record>
-            <srw:recordSchema>eckcs2.3</srw:recordSchema>
-            <srw:recordPacking>xml</srw:recordPacking>
-            <srw:recordIdentifier>kinheim:9631a4fa-4d46-57e7-96f5-1d107f10e408</srw:recordIdentifier>
-            <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
-                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
-                    <ProductId>9789060523131</ProductId>
-                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
-                    <PublisherThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
-                    </PublisherThumbnailLocation>
-                    <ProductThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/2012/05/716-298-Mijn-Boek-deel-7.png
-                    </ProductThumbnailLocation>
-                    <Title>Mijn Boek 7</Title>
-                    <Authors>
-                        <Author>kinheim</Author>
-                    </Authors>
-                    <Description>Het aanbod van puzzels in Mijn Boek deel 7 omvat: woordzoekers, speurpuzzels,
-                        woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.
-                    </Description>
-                    <ContentLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-7/?attribute_pa_aantal=los-exemplaar
-                    </ContentLocation>
-                    <ProductState>Leverbaar</ProductState>
-                    <InformationLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-7/?attribute_pa_aantal=los-exemplaar
-                    </InformationLocation>
-                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
-                    <Medium>Boek</Medium>
-                    <IsConsumptionProduct>true</IsConsumptionProduct>
-                    <ProductUsages>
-                        <ProductUsage>Oefenmateriaal</ProductUsage>
-                    </ProductUsages>
-                    <Sectors>
-                        <Sector>PO</Sector>
-                    </Sectors>
-                    <Courses>
-                        <Course>Extra</Course>
-                    </Courses>
-                    <Levels>
-                        <Level>PO</Level>
-                    </Levels>
-                    <Years>
-                        <Year>jaar 7</Year>
-                    </Years>
+                    <DEPSectors>
+                        <DEPSector>HBO</DEPSector>
+                    </DEPSectors>
+                    <DEPCourses>
+                        <DEPCourse>VERPLEEGKUNDE</DEPCourse>
+                    </DEPCourses>
+                    <DEPLevels>
+                        <DEPLevel>nvt</DEPLevel>
+                    </DEPLevels>
+                    <DEPYears>
+                        <DEPYear>jaar 1</DEPYear>
+                        <DEPYear>jaar 2</DEPYear>
+                        <DEPYear>jaar 3</DEPYear>
+                        <DEPYear>jaar 4</DEPYear>
+                    </DEPYears>
+                    <DEPSubjects>
+                        <DEPSubject>MEDISCHE ATLASSEN</DEPSubject>
+                    </DEPSubjects>
+                    <CurriculumInfo>
+                        <Sector>HBO</Sector>
+                        <Courses>
+                            <Course>VERPLEEGKUNDE</Course>
+                        </Courses>
+                        <Levels>
+                            <Level>nvt</Level>
+                        </Levels>
+                        <Years>
+                            <Year>jaar 1</Year>
+                            <Year>jaar 2</Year>
+                            <Year>jaar 3</Year>
+                            <Year>jaar 4</Year>
+                        </Years>
+                        <Subjects>
+                            <Subject>MEDISCHE ATLASSEN</Subject>
+                        </Subjects>
+                    </CurriculumInfo>
                     <SaleUnitSize>1</SaleUnitSize>
                     <Prices>
                         <Currency>EUR</Currency>
+                        <Consumerprice>5950</Consumerprice>
                         <Price>
-                            <Amount>913</Amount>
-                            <VAT>9</VAT>
+                            <Amount>5458</Amount>
+                            <VAT>9.0</VAT>
                         </Price>
                     </Prices>
-                    <PriceIsIndicative>false</PriceIsIndicative>
-                    <IsLicensed>false</IsLicensed>
-                    <IsCatalogItem>true</IsCatalogItem>
-                    <Copyright>yes</Copyright>
-                    <LastModifiedDate>2020-01-02T21:14:48+01:00</LastModifiedDate>
+                    <PriceIsIndicative>true</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <IsCatalogItem>false</IsCatalogItem>
+                    <LastModifiedDate>2024-01-02T00:00:00.000Z</LastModifiedDate>
                 </Entry>
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
-            <srw:recordIdentifier>kinheim:ccd686e6-dcb6-58f4-9ac8-b0e7686e1105</srw:recordIdentifier>
+            <srw:recordIdentifier>toegangorg:0cb46a9c-2946-571b-9905-6871e6cba8f3</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
-                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
-                    <ProductId>9789060523087</ProductId>
-                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.5.2"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.5">
+                    <ProductId>9789006152999</ProductId>
+                    <Publisher>Thiememeulenhoff</Publisher>
                     <PublisherThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                        https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg
                     </PublisherThumbnailLocation>
                     <ProductThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/2012/05/711-290-Mijn-Boek-deel-2.png
+                        https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.85dc07d2-e6ca-4a7c-bbbc-1b98dabf4fa4/tmthumb.png
                     </ProductThumbnailLocation>
-                    <Title>Mijn Boek 2</Title>
+                    <ProductFamilyName>Pit Taal</ProductFamilyName>
+                    <Title>Pit Taal Pluswerk groep 6</Title>
                     <Authors>
-                        <Author>kinheim</Author>
+                        <Author>ThiemeMeulenhoff</Author>
                     </Authors>
-                    <Description>Het aanbod van puzzels in Mijn Boek deel 2 omvat: woordzoekers, speurpuzzels,
-                        woordpuzzels en legletters.
-                    </Description>
-                    <ContentLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-2/?attribute_pa_aantal=los-exemplaar
-                    </ContentLocation>
+                    <Description>Pit Taal Pluswerk groep 6</Description>
+                    <Environments/>
+                    <AccessLocation>https://toegang.org/9789006152999</AccessLocation>
+                    <AggregationLevel>Course</AggregationLevel>
+                    <IsSeparatelyAvailable>false</IsSeparatelyAvailable>
+                    <FirstPublishedDate>2022-04-29T00:00:00.000Z</FirstPublishedDate>
+                    <EndOfLifeDate>2051-11-11T00:00:00.000Z</EndOfLifeDate>
+                    <Version>1</Version>
                     <ProductState>Leverbaar</ProductState>
-                    <InformationLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-2/?attribute_pa_aantal=los-exemplaar
-                    </InformationLocation>
                     <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
                     <Medium>Boek</Medium>
                     <IsConsumptionProduct>true</IsConsumptionProduct>
-                    <ProductUsages>
-                        <ProductUsage>Oefenmateriaal</ProductUsage>
-                    </ProductUsages>
-                    <Sectors>
+                    <DEPSectors>
+                        <DEPSector>PO</DEPSector>
+                    </DEPSectors>
+                    <DEPCourses>
+                        <DEPCourse>TAAL</DEPCourse>
+                    </DEPCourses>
+                    <DEPLevels>
+                        <DEPLevel>BASISONDERWIJS</DEPLevel>
+                    </DEPLevels>
+                    <DEPYears>
+                        <DEPYear>jaar 6</DEPYear>
+                    </DEPYears>
+                    <DEPSubjects>
+                        <DEPSubject>TAAL &amp; SPELLING</DEPSubject>
+                    </DEPSubjects>
+                    <CurriculumInfo>
                         <Sector>PO</Sector>
-                    </Sectors>
-                    <Courses>
-                        <Course>Extra</Course>
-                    </Courses>
-                    <Levels>
-                        <Level>PO</Level>
-                    </Levels>
-                    <Years>
-                        <Year>jaar 1</Year>
-                        <Year>jaar 2</Year>
-                    </Years>
+                        <Courses>
+                            <Course>TAAL</Course>
+                        </Courses>
+                        <Levels>
+                            <Level>BASISONDERWIJS</Level>
+                        </Levels>
+                        <Years>
+                            <Year>jaar 6</Year>
+                        </Years>
+                        <Subjects>
+                            <Subject>TAAL &amp; SPELLING</Subject>
+                        </Subjects>
+                    </CurriculumInfo>
                     <SaleUnitSize>1</SaleUnitSize>
                     <Prices>
                         <Currency>EUR</Currency>
+                        <Consumerprice>450</Consumerprice>
                         <Price>
-                            <Amount>913</Amount>
-                            <VAT>9</VAT>
+                            <Amount>412</Amount>
+                            <VAT>9.0</VAT>
                         </Price>
                     </Prices>
-                    <PriceIsIndicative>false</PriceIsIndicative>
-                    <IsLicensed>false</IsLicensed>
-                    <IsCatalogItem>true</IsCatalogItem>
-                    <Copyright>yes</Copyright>
-                    <LastModifiedDate>2020-01-02T21:14:40+01:00</LastModifiedDate>
+                    <PriceIsIndicative>true</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <IsCatalogItem>false</IsCatalogItem>
+                    <LastModifiedDate>2024-01-02T00:00:00.000Z</LastModifiedDate>
                 </Entry>
             </srw:recordData>
         </srw:record>
         <srw:record>
-            <srw:recordSchema>eckcs2.3</srw:recordSchema>
+            <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
             <srw:recordPacking>xml</srw:recordPacking>
-            <srw:recordIdentifier>kinheim:d211ffea-ba91-5d74-8b1d-ce5860d146c7</srw:recordIdentifier>
+            <srw:recordIdentifier>toegangorg:0cd30b0d-382a-5714-ad98-b61d0df70e33</srw:recordIdentifier>
             <srw:recordData>
-                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.3"
-                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.3">
-                    <ProductId>urn:kinheim:9789060523087</ProductId>
-                    <Publisher>Educatieve Uitgeverij Kinheim</Publisher>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.5.2"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.5">
+                    <ProductId>9789006262193</ProductId>
+                    <Publisher>Thiememeulenhoff</Publisher>
                     <PublisherThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png
+                        https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg
                     </PublisherThumbnailLocation>
                     <ProductThumbnailLocation>
-                        https://www.kinheim.com/wp-content/uploads/2012/05/711-290-Mijn-Boek-deel-2.png
+                        https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.85dc07d2-e6ca-4a7c-bbbc-1b98dabf4fa4/tmthumb.png
                     </ProductThumbnailLocation>
-                    <Title>Mijn Boek 2 - Set van 5</Title>
+                    <ProductFamilyName>Examenbundels havo 2023/2024</ProductFamilyName>
+                    <Title>Voordeelpakket havo Duits</Title>
                     <Authors>
-                        <Author>kinheim</Author>
+                        <Author>ThiemeMeulenhoff</Author>
                     </Authors>
-                    <Description>Het aanbod van puzzels in Mijn Boek deel 2 omvat: woordzoekers, speurpuzzels,
-                        woordpuzzels en legletters.
-                    </Description>
-                    <ContentLocation>https://www.kinheim.com/leermiddelen/mijn-boek-2/?attribute_pa_aantal=set-van-5
-                    </ContentLocation>
+                    <Description>Voordeelpakket havo Duits</Description>
+                    <Environments/>
+                    <AccessLocation>https://toegang.org/9789006262193</AccessLocation>
+                    <AggregationLevel>Course</AggregationLevel>
+                    <IsSeparatelyAvailable>false</IsSeparatelyAvailable>
+                    <FirstPublishedDate>2023-09-27T00:00:00.000Z</FirstPublishedDate>
+                    <EndOfLifeDate>2051-11-11T00:00:00.000Z</EndOfLifeDate>
+                    <Version>1</Version>
                     <ProductState>Leverbaar</ProductState>
-                    <InformationLocation>
-                        https://www.kinheim.com/leermiddelen/mijn-boek-2/?attribute_pa_aantal=set-van-5
-                    </InformationLocation>
                     <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
-                    <Medium>Boek</Medium>
+                    <Medium>Anders</Medium>
                     <IsConsumptionProduct>true</IsConsumptionProduct>
-                    <ProductUsages>
-                        <ProductUsage>Oefenmateriaal</ProductUsage>
-                    </ProductUsages>
-                    <Sectors>
-                        <Sector>PO</Sector>
-                    </Sectors>
-                    <Courses>
-                        <Course>Extra</Course>
-                    </Courses>
-                    <Levels>
-                        <Level>PO</Level>
-                    </Levels>
-                    <Years>
-                        <Year>jaar 1</Year>
-                        <Year>jaar 2</Year>
-                    </Years>
-                    <SaleUnitSize>5</SaleUnitSize>
+                    <DEPSectors>
+                        <DEPSector>VO</DEPSector>
+                    </DEPSectors>
+                    <DEPCourses>
+                        <DEPCourse>DUITS</DEPCourse>
+                    </DEPCourses>
+                    <DEPLevels>
+                        <DEPLevel>HAVO</DEPLevel>
+                    </DEPLevels>
+                    <DEPYears>
+                        <DEPYear>jaar 4</DEPYear>
+                        <DEPYear>jaar 5</DEPYear>
+                    </DEPYears>
+                    <DEPSubjects>
+                        <DEPSubject>EXAMENBUNDELS</DEPSubject>
+                    </DEPSubjects>
+                    <CurriculumInfo>
+                        <Sector>VO</Sector>
+                        <Courses>
+                            <Course>DUITS</Course>
+                        </Courses>
+                        <Levels>
+                            <Level>HAVO</Level>
+                        </Levels>
+                        <Years>
+                            <Year>jaar 4</Year>
+                            <Year>jaar 5</Year>
+                        </Years>
+                        <Subjects>
+                            <Subject>EXAMENBUNDELS</Subject>
+                        </Subjects>
+                    </CurriculumInfo>
+                    <SaleUnitSize>1</SaleUnitSize>
                     <Prices>
                         <Currency>EUR</Currency>
+                        <Consumerprice>0</Consumerprice>
                         <Price>
-                            <Amount>3206</Amount>
-                            <VAT>9</VAT>
+                            <Amount>0</Amount>
+                            <VAT>0.0</VAT>
                         </Price>
                     </Prices>
-                    <PriceIsIndicative>false</PriceIsIndicative>
-                    <IsLicensed>false</IsLicensed>
-                    <IsCatalogItem>true</IsCatalogItem>
-                    <Copyright>yes</Copyright>
-                    <LastModifiedDate>2020-01-02T21:08:42+01:00</LastModifiedDate>
+                    <PriceIsIndicative>true</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <IsCatalogItem>false</IsCatalogItem>
+                    <LastModifiedDate>2024-01-05T00:00:00.000Z</LastModifiedDate>
+                </Entry>
+            </srw:recordData>
+        </srw:record>
+        <srw:record>
+            <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
+            <srw:recordPacking>xml</srw:recordPacking>
+            <srw:recordIdentifier>toegangorg:0ce4b42f-8137-57b8-a280-033d3ac8c846</srw:recordIdentifier>
+            <srw:recordData>
+                <Entry xmlns="http://dt2.eck.nl/schema/catalogservice/v2.5.2"
+                       xmlns:ct="http://dt2.eck.nl/schema/common/v2.5">
+                    <ProductId>9789006954715</ProductId>
+                    <Publisher>Thiememeulenhoff</Publisher>
+                    <PublisherThumbnailLocation>
+                        https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg
+                    </PublisherThumbnailLocation>
+                    <ProductThumbnailLocation>
+                        https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.85dc07d2-e6ca-4a7c-bbbc-1b98dabf4fa4/tmthumb.png
+                    </ProductThumbnailLocation>
+                    <ProductFamilyName>Spelling in de lift adaptief</ProductFamilyName>
+                    <Title>Spelling in de lift adaptief Schoollicentie vanaf 300 leerlingen</Title>
+                    <Authors>
+                        <Author>ThiemeMeulenhoff</Author>
+                    </Authors>
+                    <Description>Spelling in de lift adaptief Schoollicentie vanaf 300 leerlingen</Description>
+                    <Environments/>
+                    <AccessLocation>https://toegang.org/9789006954715</AccessLocation>
+                    <AggregationLevel>Course</AggregationLevel>
+                    <IsSeparatelyAvailable>false</IsSeparatelyAvailable>
+                    <FirstPublishedDate>2021-06-16T00:00:00.000Z</FirstPublishedDate>
+                    <EndOfLifeDate>2051-11-11T00:00:00.000Z</EndOfLifeDate>
+                    <Version>1</Version>
+                    <ProductState>Leverbaar</ProductState>
+                    <IntendedEndUserRole>Onderwijsvolger</IntendedEndUserRole>
+                    <Medium>Anders</Medium>
+                    <IsConsumptionProduct>true</IsConsumptionProduct>
+                    <DEPSectors>
+                        <DEPSector>PO</DEPSector>
+                    </DEPSectors>
+                    <DEPCourses>
+                        <DEPCourse>SPELLING</DEPCourse>
+                    </DEPCourses>
+                    <DEPLevels>
+                        <DEPLevel>BASISONDERWIJS</DEPLevel>
+                    </DEPLevels>
+                    <DEPSubjects>
+                        <DEPSubject>TAAL &amp; SPELLING</DEPSubject>
+                    </DEPSubjects>
+                    <CurriculumInfo>
+                        <Sector>PO</Sector>
+                        <Courses>
+                            <Course>SPELLING</Course>
+                        </Courses>
+                        <Levels>
+                            <Level>BASISONDERWIJS</Level>
+                        </Levels>
+                        <Subjects>
+                            <Subject>TAAL &amp; SPELLING</Subject>
+                        </Subjects>
+                    </CurriculumInfo>
+                    <SaleUnitSize>1</SaleUnitSize>
+                    <Prices>
+                        <Currency>EUR</Currency>
+                        <Consumerprice>64900</Consumerprice>
+                        <Price>
+                            <Amount>59541</Amount>
+                            <VAT>9.0</VAT>
+                        </Price>
+                    </Prices>
+                    <PriceIsIndicative>true</PriceIsIndicative>
+                    <IsLicensed>true</IsLicensed>
+                    <IsCatalogItem>false</IsCatalogItem>
+                    <LastModifiedDate>2024-01-02T00:00:00.000Z</LastModifiedDate>
                 </Entry>
             </srw:recordData>
         </srw:record>
@@ -640,11 +799,11 @@
     <srw:nextRecordPosition>11</srw:nextRecordPosition>
     <srw:echoedSearchRetrieveRequest>
         <srw:version>1.2</srw:version>
-        <srw:query>mijn AND ((meta.repository.id exact kinheim))</srw:query>
+        <srw:query>*</srw:query>
         <srw:startRecord>1</srw:startRecord>
         <srw:maximumRecords>10</srw:maximumRecords>
         <srw:recordPacking>xml</srw:recordPacking>
-        <srw:recordSchema>eckcs2.3</srw:recordSchema>
+        <srw:recordSchema>eckcs2.5.2</srw:recordSchema>
         <srw:extraRequestData>
             <dd:drilldown
                     xmlns:dd="http://meresco.org/namespace/drilldown"
@@ -663,28 +822,99 @@
                 xsi:schemaLocation="http://meresco.org/namespace/drilldown http://meresco.org/files/xsd/drilldown-20070730.xsd">
             <dd:term-drilldown>
                 <dd:navigator name="Publisher">
-                    <dd:item count="18">Educatieve Uitgeverij Kinheim</dd:item>
+                    <dd:item count="5599">Malmberg</dd:item>
+                    <dd:item count="5392">Thiememeulenhoff</dd:item>
+                    <dd:item count="2137">Boomberoepsonderwijs</dd:item>
+                    <dd:item count="2090">Noordhoff Uitgevers</dd:item>
+                    <dd:item count="909">Kenteq</dd:item>
+                    <dd:item count="869">Motile</dd:item>
+                    <dd:item count="449">Educatieve Uitgeverij Kinheim</dd:item>
+                    <dd:item count="257">Uitgeverij Deviant bv</dd:item>
+                    <dd:item count="231">Uitgeversgroep</dd:item>
+                    <dd:item count="215">Pearson</dd:item>
+                    <dd:item count="202">Cambridge University Press</dd:item>
+                    <dd:item count="191">Educatieve Uitgeverij Savantis</dd:item>
+                    <dd:item count="187">EduHint B.V.</dd:item>
+                    <dd:item count="175">Boom beroepsonderwijs</dd:item>
+                    <dd:item count="146">VAPRO</dd:item>
+                    <dd:item count="138">Ontwikkelcentrum</dd:item>
+                    <dd:item count="136">Instruct</dd:item>
+                    <dd:item count="132">Blink</dd:item>
+                    <dd:item count="88">Brainstud BV</dd:item>
+                    <dd:item count="86">WalburgPers Educatief</dd:item>
+                    <dd:item count="81">SVH</dd:item>
+                    <dd:item count="81">VBeducatief</dd:item>
+                    <dd:item count="74">Damon Educatie</dd:item>
+                    <dd:item count="64">VO-content</dd:item>
+                    <dd:item count="61">Seneca Burgerschap</dd:item>
+                    <dd:item count="56">Syntax Media</dd:item>
+                    <dd:item count="52">Alquin Educatieve Uitgeverij B.V.</dd:item>
+                    <dd:item count="45">hetveiligheidsboek.nl</dd:item>
+                    <dd:item count="43">Platform vmbo BWI</dd:item>
+                    <dd:item count="41">Boom Voortgezet Onderwijs</dd:item>
+                    <dd:item count="41">KleurRijker</dd:item>
+                    <dd:item count="40">Staal &amp; Roeland</dd:item>
+                    <dd:item count="36">Talenland (Difusion)</dd:item>
+                    <dd:item count="36">National Geographic Learning</dd:item>
+                    <dd:item count="35">Stichting Praktijkleren</dd:item>
+                    <dd:item count="30">Consortium Beroepsonderwijs</dd:item>
+                    <dd:item count="30">Vodix</dd:item>
+                    <dd:item count="30">Visavi</dd:item>
+                    <dd:item count="29">Studyflow</dd:item>
+                    <dd:item count="29">Edufocus</dd:item>
+                    <dd:item count="27">Leslab</dd:item>
+                    <dd:item count="23">Smart Educational Tools</dd:item>
+                    <dd:item count="22">NVKL</dd:item>
+                    <dd:item count="21">Uitgeverij Pak</dd:item>
+                    <dd:item count="19">Codename Future</dd:item>
+                    <dd:item count="19">Holmwood's</dd:item>
+                    <dd:item count="18">CD-ID Multimedia</dd:item>
+                    <dd:item count="17">Instituut Kind in Beeld</dd:item>
+                    <dd:item count="14">Exalo Media</dd:item>
+                    <dd:item count="12">Fectar B.V.</dd:item>
                 </dd:navigator>
                 <dd:navigator name="ProductState">
-                    <dd:item count="18">Leverbaar</dd:item>
+                    <dd:item count="10981">Leverbaar</dd:item>
+                    <dd:item count="7030">Niet meer leverbaar</dd:item>
+                    <dd:item count="344">Beperkt leverbaar</dd:item>
+                    <dd:item count="176">Nog niet leverbaar</dd:item>
+                    <dd:item count="29">Tijdelijk niet leverbaar</dd:item>
+                    <dd:item count="1">Zal niet verschijnen</dd:item>
                 </dd:navigator>
                 <dd:navigator name="IntendedEndUserRole">
-                    <dd:item count="18">Onderwijsvolger</dd:item>
+                    <dd:item count="19759">Onderwijsvolger</dd:item>
+                    <dd:item count="1070">Onderwijsgever</dd:item>
+                    <dd:item count="1">Beheerder</dd:item>
                 </dd:navigator>
                 <dd:navigator name="Medium">
-                    <dd:item count="18">Boek</dd:item>
+                    <dd:item count="14098">Web browser</dd:item>
+                    <dd:item count="3984">Boek</dd:item>
+                    <dd:item count="2689">Anders</dd:item>
+                    <dd:item count="30">CD-ROM</dd:item>
+                    <dd:item count="27">DVD</dd:item>
+                    <dd:item count="2">Downloadable installer</dd:item>
                 </dd:navigator>
                 <dd:navigator name="IsConsumptionProduct">
-                    <dd:item count="18">true</dd:item>
+                    <dd:item count="12914">true</dd:item>
+                    <dd:item count="7916">false</dd:item>
                 </dd:navigator>
                 <dd:navigator name="Sectors.Sector">
-                    <dd:item count="18">PO</dd:item>
+                    <dd:item count="12899">VO</dd:item>
+                    <dd:item count="8718">MBO</dd:item>
+                    <dd:item count="1623">PO</dd:item>
+                    <dd:item count="379">HBO</dd:item>
+                    <dd:item count="56">WO</dd:item>
+                    <dd:item count="21">VO, MBO, HBO</dd:item>
+                    <dd:item count="20">MBO, HBO</dd:item>
+                    <dd:item count="9">PO, VO, MBO, HBO, WO</dd:item>
+                    <dd:item count="7">VO, MBO</dd:item>
+                    <dd:item count="6">MBO, WO, VO</dd:item>
                 </dd:navigator>
             </dd:term-drilldown>
         </dd:drilldown>
         <querytimes xmlns="http://meresco.org/namespace/timing">
-            <sruHandling>PT0.012S</sruHandling>
-            <sruQueryTime>PT0.005S</sruQueryTime>
+            <sruHandling>PT0.010S</sruHandling>
+            <sruQueryTime>PT0.003S</sruQueryTime>
             <index>PT0.001S</index>
         </querytimes>
     </srw:extraResponseData>

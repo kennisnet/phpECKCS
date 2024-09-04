@@ -26,34 +26,40 @@ final class ArrayToEckRecordMapperTest extends TestCase
     private function expectedResult(): EckRecord
     {
         return EckRecordBuilder::withRecordIdAndTitle(
-            'kinheim:07168b06-92e2-5569-aca3-75f13349f8e0',
-            'Mijn Boek 3'
+            'toegangorg:0c1b8824-6989-5034-b116-7ae1bc0922bd',
+            'Code+ Takenboek deel 1 inclusief 1/2 jaar licentie'
         )
-            ->withProductId('9789060523094')
-            ->withPublisher('Educatieve Uitgeverij Kinheim')
-            ->withPublisherThumbnailLocation('https://www.kinheim.com/wp-content/uploads/kinheim-logo-blauw-op-wit.png')
-            ->withProductThumbnailLocation('https://www.kinheim.com/wp-content/uploads/2012/05/712-292-Mijn-Boek-deel-2.png')
-            ->withAuthors(['kinheim'])
-            ->withDescription('Het aanbod van puzzels in Mijn Boek deel 3 omvat: woordzoekers, speurpuzzels, woordpuzzels, legletters, zoek de verschillen, anagrammen en magische vierkanten.')
-            ->withContentLocation('https://www.kinheim.com/leermiddelen/mijn-boek-3/?attribute_pa_aantal=los-exemplaar')
+            ->withProductId('9789006439816')
+            ->withPublisher('Thiememeulenhoff')
+            ->withVersion('2')
+            ->withPublisherThumbnailLocation('https://www.thiememeulenhoff.nl/areas/Corporate/Images/svg/thiememeulenhoff-logo-no-border.svg')
+            ->withProductThumbnailLocation('https://cdn.tham.thiememeulenhoff.nl/image-output/tham.prod.85dc07d2-e6ca-4a7c-bbbc-1b98dabf4fa4/tmthumb.png')
+            ->withAccessLocation('https://toegang.org/9789006439816')
+            ->withEndOfLifeDate(new DateTimeImmutable('2022-09-27T00:00:00.000Z'))
+            ->withFirstPublishedDate(new DateTimeImmutable('2020-09-01T00:00:00.000Z'))
+            ->withLastModifiedDate(new DateTimeImmutable('2022-09-27T00:00:00.000Z' ))
+            ->withAuthors(['ThiemeMeulenhoff'])
+            ->withDescription('Code+ Takenboek deel 1 inclusief 1/2 jaar licentie')
+            ->withContentLocation(null)
             ->withIntendedEndUserRole('Onderwijsvolger')
-            ->withProductState('Leverbaar')
-            ->withInformationLocation('https://www.kinheim.com/leermiddelen/mijn-boek-3/?attribute_pa_aantal=los-exemplaar')
+            ->withProductState('Niet meer leverbaar')
+//            ->withInformationLocation(null)
             ->withMedium('Boek')
             ->withIsConsumptionProduct(true)
-            ->withProductUsages(['Oefenmateriaal'])
-            ->withSectors(['PO'])
-            ->withCourses(['Extra'])
-            ->withLevels(['PO'])
-            ->withYears(['jaar 3'])
+//            ->withProductUsages(['Oefenmateriaal'])
+            ->withProductFamilyName('Code+')
+//            ->withSectors(['PO'])
+//            ->withCourses(['Extra'])
+//            ->withLevels(['PO'])
+//            ->withYears(['jaar 3'])
             ->withSaleUnitSize(1)
-            ->withPrices((new PricesBuilder())->withCurrency('EUR')->withPrice([
-                (new PriceBuilder())->withVat(9)->withAmount(913)->build()
+            ->withPrices((new PricesBuilder())->withCurrency('EUR')->withConsumerPrice(0)->withPrice([
+                (new PriceBuilder())->withVat(0.0)->withAmount(0)->build()
             ])->build())
-            ->withIsLicensed(false)
-            ->withIsCatalogItem(true)
-            ->withCopyright('yes')
-            ->withLastModifiedDate(new DateTimeImmutable('2020-01-02T21:14:42+01:00'))
+            ->withPriceIsIndicative(true)
+            ->withIsLicensed(true)
+            ->withIsCatalogItem(false)
+            ->withCopyright(null)
             ->build();
     }
 
