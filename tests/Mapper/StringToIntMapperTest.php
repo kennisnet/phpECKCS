@@ -19,7 +19,7 @@ final class StringToIntMapperTest extends TestCase
         $this->assertEquals($expected, $input, $description);
     }
 
-    public function mapStringToIntDataProvider(): \Generator
+    public static function mapStringToIntDataProvider(): \Generator
     {
         yield [0, null, 'null maps to 0'];
         yield [0, '0', '\'0\' maps to 0'];
